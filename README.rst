@@ -2,21 +2,20 @@ Learning is best done by examples.
 
 This is a collection of C++ examples
 from various sources.
-Most files, those starting with ``_``,
-are from
-`cppreference.com <https://en.cppreference.com>`__
-(see ``_cppreference_com_examples.rst``).
-I'd be happy to include pull requests with further examples.
 
-The directory is flat.
-The file names are short,
-counted using letters and digits.
+Folders
 
-Each file contains the command to compile the file,
-starting with ``g++`` or ``clang``.
-The result ends in ``.exe`` or ``.o`` or ``.so``
-Created example files end in ``.txt``.
-All these files are ignored by git.
+- r: various sources
+- c: c examples from `cppreference.com`_
+- cpp: cpp examples from `cppreference.com`_
+
+`cppreference.com`_ were extracted with ``cppreference_com_examples.py``.
+
+Pull requests with further examples are welcome.
+
+Each example file contains the command to compile the file,
+starting with ``g++``, ``gcc`` or ``clang``.
+The result is placed in ``../_build`` and usually ends in ``.exe``.
 
 To compile and run all examples:
 
@@ -25,3 +24,4 @@ To compile and run all examples:
   bash tryall.sh
 
 
+.. _`cppreference.com`: https://en.cppreference.com
