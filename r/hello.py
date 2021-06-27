@@ -1,0 +1,27 @@
+#!/usr/bin/python
+
+#r'''
+#    >>> import hello_ext
+#    >>> print getting_started1.greet()
+#    hello, world
+#    >>> number = 11
+#    >>> print number, '*', number, '=', getting_started1.square(number)
+#    11 * 11 = 121
+#'''
+#
+#def run(args = None):
+#    if args is not None:
+#        import sys
+#        sys.argv = args
+#    import doctest, test_getting_started1
+#    return doctest.testmod(test_getting_started1)
+#
+#if __name__ == '__main__':
+#    import sys
+#    sys.exit(run()[0])
+
+import hello_ext
+
+with open("/home/roland/tstrunpyd.log","w") as f:
+    f.writelines([hello_ext.greet()])
+    print(hello_ext.greet())

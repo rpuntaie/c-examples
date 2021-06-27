@@ -1,0 +1,9 @@
+*.o
+*.exe
+*.so
+*.txt
+a.out
+*.asm
+*.nfo
+*.bin
+*.cache
