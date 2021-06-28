@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/locale_collate.exe ./cpp/locale_collate.cpp && (cd ../_build/cpp/;./locale_collate.exe)
+g++ --std=c++20 -pthread -o ../_build/cpp/locale_collate.exe ./cpp/locale_collate.cpp && (cd ../_build/cpp/;./locale_collate.exe) || true
 https://en.cppreference.com/w/cpp/locale/collate
 */
 #include <locale>

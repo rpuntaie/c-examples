@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/numeric_special_functions_cyl_bessel_k.exe ./cpp/numeric_special_functions_cyl_bessel_k.cpp && (cd ../_build/cpp/;./numeric_special_functions_cyl_bessel_k.exe)
+g++ --std=c++20 -pthread -o ../_build/cpp/numeric_special_functions_cyl_bessel_k.exe ./cpp/numeric_special_functions_cyl_bessel_k.cpp && (cd ../_build/cpp/;./numeric_special_functions_cyl_bessel_k.exe) || true
 https://en.cppreference.com/w/cpp/numeric/special_functions/cyl_bessel_k
 */
 #include <cmath>

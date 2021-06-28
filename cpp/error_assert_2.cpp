@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/error_assert_2.exe ./cpp/error_assert_2.cpp && (cd ../_build/cpp/;./error_assert_2.exe)
+g++ --std=c++20 -pthread -o ../_build/cpp/error_assert_2.exe ./cpp/error_assert_2.cpp && (cd ../_build/cpp/;./error_assert_2.exe) || true
 https://en.cppreference.com/w/cpp/error/assert
 */
 #include <iostream>

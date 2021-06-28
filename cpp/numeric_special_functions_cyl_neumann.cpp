@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/numeric_special_functions_cyl_neumann.exe ./cpp/numeric_special_functions_cyl_neumann.cpp && (cd ../_build/cpp/;./numeric_special_functions_cyl_neumann.exe)
+g++ --std=c++20 -pthread -o ../_build/cpp/numeric_special_functions_cyl_neumann.exe ./cpp/numeric_special_functions_cyl_neumann.cpp && (cd ../_build/cpp/;./numeric_special_functions_cyl_neumann.exe) || true
 https://en.cppreference.com/w/cpp/numeric/special_functions/cyl_neumann
 */
 #include <cmath>
