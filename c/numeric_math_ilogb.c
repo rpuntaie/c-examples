@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_ilogb.exe ./c/numeric_math_ilogb.c && (cd ../_build/c/;./numeric_math_ilogb.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_ilogb.exe ./c/numeric_math_ilogb.c && (cd ../_build/c/;./numeric_math_ilogb.exe)
 https://en.cppreference.com/w/c/numeric/math/ilogb
 */
 #include <stdio.h>

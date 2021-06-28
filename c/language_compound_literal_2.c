@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_compound_literal_2.exe ./c/language_compound_literal_2.c && (cd ../_build/c/;./language_compound_literal_2.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_compound_literal_2.exe ./c/language_compound_literal_2.c && (cd ../_build/c/;./language_compound_literal_2.exe) || true
 https://en.cppreference.com/w/c/language/compound_literal
 */
 int *p = (int[]){2, 4}; // creates an unnamed static array of type int[2]
@@ -14,8 +14,8 @@ int main(void)
                        // initializes the second element to zero
                        // stores the address of the first element in p
     struct point {double x,y;};
-    void drawline1(struct point from, struct point to);
-    void drawline2(struct point *from, struct point *to);
+    void drawline1(struct point from, struct point to){};
+    void drawline2(struct point *from, struct point *to){};
     drawline1((struct point){.x=1, .y=1},  // creates two structs with block scope 
               (struct point){.x=3, .y=4}); // and calls drawline1, passing them by value
     drawline2(&(struct point){.x=1, .y=1},  // creates two structs with block scope 

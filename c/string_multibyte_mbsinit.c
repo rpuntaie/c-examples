@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_multibyte_mbsinit.exe ./c/string_multibyte_mbsinit.c && (cd ../_build/c/;./string_multibyte_mbsinit.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_multibyte_mbsinit.exe ./c/string_multibyte_mbsinit.c && (cd ../_build/c/;./string_multibyte_mbsinit.exe)
 https://en.cppreference.com/w/c/string/multibyte/mbsinit
 */
 #include <locale.h>

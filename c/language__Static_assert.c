@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language__Static_assert.exe ./c/language__Static_assert.c && (cd ../_build/c/;./language__Static_assert.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language__Static_assert.exe ./c/language__Static_assert.c && (cd ../_build/c/;./language__Static_assert.exe) || true
 https://en.cppreference.com/w/c/language/_Static_assert
 */
 #include <assert.h>

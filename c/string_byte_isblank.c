@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_isblank.exe ./c/string_byte_isblank.c && (cd ../_build/c/;./string_byte_isblank.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_isblank.exe ./c/string_byte_isblank.c && (cd ../_build/c/;./string_byte_isblank.exe)
 https://en.cppreference.com/w/c/string/byte/isblank
 */
 #include <stdio.h>

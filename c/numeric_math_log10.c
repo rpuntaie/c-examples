@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_log10.exe ./c/numeric_math_log10.c && (cd ../_build/c/;./numeric_math_log10.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_log10.exe ./c/numeric_math_log10.c && (cd ../_build/c/;./numeric_math_log10.exe)
 https://en.cppreference.com/w/c/numeric/math/log10
 */
 #include <stdio.h>

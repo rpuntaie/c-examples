@@ -10,7 +10,7 @@ struct MyClass {
   MyClass() {std::cout << '*';}  // print an asterisk for each construction
 };
 
-int main () {
+int main() {
   std::cout << "constructions (1): ";
   // allocates and constructs five objects:
   MyClass * p1 = new MyClass[5];

@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/experimental_boyer_moore_searcher.exe ./cpp/experimental_boyer_moore_searcher.cpp && (cd ../_build/cpp/;./experimental_boyer_moore_searcher.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/experimental_boyer_moore_searcher.exe ./cpp/experimental_boyer_moore_searcher.cpp && (cd ../_build/cpp/;./experimental_boyer_moore_searcher.exe)
 https://en.cppreference.com/w/cpp/experimental/boyer_moore_searcher
 */
 #include <iostream>

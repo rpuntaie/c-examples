@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_real_floating_types.exe ./c/language_real_floating_types.c && (cd ../_build/c/;./language_real_floating_types.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_real_floating_types.exe ./c/language_real_floating_types.c && (cd ../_build/c/;./language_real_floating_types.exe)
 https://en.cppreference.com/w/c/language/real_floating_types
 */
 #include <stdio.h>

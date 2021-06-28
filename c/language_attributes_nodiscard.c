@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_attributes_nodiscard.exe ./c/language_attributes_nodiscard.c && (cd ../_build/c/;./language_attributes_nodiscard.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_attributes_nodiscard.exe ./c/language_attributes_nodiscard.c && (cd ../_build/c/;./language_attributes_nodiscard.exe)
 https://en.cppreference.com/w/c/language/attributes/nodiscard
 */
 struct [[nodiscard]] error_info { int status; /*...*/ };

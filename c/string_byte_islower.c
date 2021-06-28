@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_islower.exe ./c/string_byte_islower.c && (cd ../_build/c/;./string_byte_islower.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_islower.exe ./c/string_byte_islower.c && (cd ../_build/c/;./string_byte_islower.exe)
 https://en.cppreference.com/w/c/string/byte/islower
 */
 #include <stdio.h>

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/chrono_mktime.exe ./c/chrono_mktime.c && (cd ../_build/c/;./chrono_mktime.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/chrono_mktime.exe ./c/chrono_mktime.c && (cd ../_build/c/;./chrono_mktime.exe)
 https://en.cppreference.com/w/c/chrono/mktime
 */
 #define _POSIX_C_SOURCE 200112L // for setenv on gcc

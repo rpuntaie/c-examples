@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_strdup.exe ./c/string_byte_strdup.c && (cd ../_build/c/;./string_byte_strdup.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_strdup.exe ./c/string_byte_strdup.c #C23 && (cd ../_build/c/;./string_byte_strdup.exe)
 https://en.cppreference.com/w/c/string/byte/strdup
 */
 #include <string.h>

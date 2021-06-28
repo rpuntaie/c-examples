@@ -1,5 +1,5 @@
 /*
-g++ -std=c++20 -c r/tx.cpp
+g++ -std=c++20 -o ../_build/r/tx.o -c r/tx.cpp
 */
 
 #include <memory>

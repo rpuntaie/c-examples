@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/language_transactional_memory.exe ./cpp/language_transactional_memory.cpp && (cd ../_build/cpp/;./language_transactional_memory.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/language_transactional_memory.exe ./cpp/language_transactional_memory.cpp && (cd ../_build/cpp/;./language_transactional_memory.exe)
 https://en.cppreference.com/w/cpp/language/transactional_memory
 */
 #include <iostream>

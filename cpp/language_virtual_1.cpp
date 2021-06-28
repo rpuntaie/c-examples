@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/language_virtual_1.exe ./cpp/language_virtual_1.cpp && (cd ../_build/cpp/;./language_virtual_1.exe) || true
+# g++ --std=c++20 -pthread -o ../_build/cpp/language_virtual_1.exe ./cpp/language_virtual_1.cpp && (cd ../_build/cpp/;./language_virtual_1.exe) || true
 https://en.cppreference.com/w/cpp/language/virtual
 */
 class B {

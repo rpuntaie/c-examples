@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_fenv_feraiseexcept.exe ./c/numeric_fenv_feraiseexcept.c && (cd ../_build/c/;./numeric_fenv_feraiseexcept.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_fenv_feraiseexcept.exe ./c/numeric_fenv_feraiseexcept.c && (cd ../_build/c/;./numeric_fenv_feraiseexcept.exe)
 https://en.cppreference.com/w/c/numeric/fenv/feraiseexcept
 */
 #include <stdio.h>

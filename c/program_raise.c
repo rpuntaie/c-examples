@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/program_raise.exe ./c/program_raise.c && (cd ../_build/c/;./program_raise.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/program_raise.exe ./c/program_raise.c && (cd ../_build/c/;./program_raise.exe)
 https://en.cppreference.com/w/c/program/raise
 */
 #include <signal.h>

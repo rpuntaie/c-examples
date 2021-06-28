@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/io_vfwprintf.exe ./c/io_vfwprintf.c && (cd ../_build/c/;./io_vfwprintf.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/io_vfwprintf.exe ./c/io_vfwprintf.c && (cd ../_build/c/;./io_vfwprintf.exe)
 https://en.cppreference.com/w/c/io/vfwprintf
 */
 #include <stdio.h>

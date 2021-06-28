@@ -6,6 +6,7 @@ struct S {
     static int n;
     void f();
 };
+int S::n = 0; // transformed to S::n = 1;
 void S::f() {
     n = 1; // transformed to S::n = 1;
 }

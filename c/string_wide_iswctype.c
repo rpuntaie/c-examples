@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_wide_iswctype.exe ./c/string_wide_iswctype.c && (cd ../_build/c/;./string_wide_iswctype.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_wide_iswctype.exe ./c/string_wide_iswctype.c && (cd ../_build/c/;./string_wide_iswctype.exe)
 https://en.cppreference.com/w/c/string/wide/iswctype
 */
 #include <locale.h>

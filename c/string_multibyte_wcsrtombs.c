@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_multibyte_wcsrtombs.exe ./c/string_multibyte_wcsrtombs.c && (cd ../_build/c/;./string_multibyte_wcsrtombs.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_multibyte_wcsrtombs.exe ./c/string_multibyte_wcsrtombs.c && (cd ../_build/c/;./string_multibyte_wcsrtombs.exe)
 https://en.cppreference.com/w/c/string/multibyte/wcsrtombs
 */
 #include <stdio.h>

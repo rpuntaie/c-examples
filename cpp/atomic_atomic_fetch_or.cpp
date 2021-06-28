@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/atomic_atomic_fetch_or.exe ./cpp/atomic_atomic_fetch_or.cpp && (cd ../_build/cpp/;./atomic_atomic_fetch_or.exe)
+g++ --std=c++20 -latomic -pthread -o ../_build/cpp/atomic_atomic_fetch_or.exe ./cpp/atomic_atomic_fetch_or.cpp && (cd ../_build/cpp/;./atomic_atomic_fetch_or.exe)
 https://en.cppreference.com/w/cpp/atomic/atomic_fetch_or
 */
 #include <iostream>

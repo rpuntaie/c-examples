@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_sizeof.exe ./c/language_sizeof.c && (cd ../_build/c/;./language_sizeof.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_sizeof.exe ./c/language_sizeof.c && (cd ../_build/c/;./language_sizeof.exe)
 https://en.cppreference.com/w/c/language/sizeof
 */
 #include <stdio.h>

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_wide_iswgraph.exe ./c/string_wide_iswgraph.c && (cd ../_build/c/;./string_wide_iswgraph.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_wide_iswgraph.exe ./c/string_wide_iswgraph.c && (cd ../_build/c/;./string_wide_iswgraph.exe)
 https://en.cppreference.com/w/c/string/wide/iswgraph
 */
 #include <stdio.h>

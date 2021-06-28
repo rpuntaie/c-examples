@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/io_fgetc.exe ./c/io_fgetc.c && (cd ../_build/c/;./io_fgetc.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/io_fgetc.exe ./c/io_fgetc.c && (cd ../_build/c/;./io_fgetc.exe)
 https://en.cppreference.com/w/c/io/fgetc
 */
 #include <stdio.h>

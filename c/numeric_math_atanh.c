@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_atanh.exe ./c/numeric_math_atanh.c && (cd ../_build/c/;./numeric_math_atanh.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_atanh.exe ./c/numeric_math_atanh.c && (cd ../_build/c/;./numeric_math_atanh.exe)
 https://en.cppreference.com/w/c/numeric/math/atanh
 */
 #include <stdio.h>

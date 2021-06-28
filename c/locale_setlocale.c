@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/locale_setlocale.exe ./c/locale_setlocale.c && (cd ../_build/c/;./locale_setlocale.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/locale_setlocale.exe ./c/locale_setlocale.c && (cd ../_build/c/;./locale_setlocale.exe)
 https://en.cppreference.com/w/c/locale/setlocale
 */
 #include <stdio.h>

@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/utility_format_make_format_args.exe ./cpp/utility_format_make_format_args.cpp && (cd ../_build/cpp/;./utility_format_make_format_args.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/utility_format_make_format_args.exe ./cpp/utility_format_make_format_args.cpp && (cd ../_build/cpp/;./utility_format_make_format_args.exe)
 https://en.cppreference.com/w/cpp/utility/format/make_format_args
 */
 #include <array>

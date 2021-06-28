@@ -1,5 +1,6 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/error_bad_exception.exe ./cpp/error_bad_exception.cpp && (cd ../_build/cpp/;./error_bad_exception.exe)
+NOT c++17...
+g++ --std=c++11 -pthread -o ../_build/cpp/error_bad_exception.exe ./cpp/error_bad_exception.cpp && (cd ../_build/cpp/;./error_bad_exception.exe)
 https://en.cppreference.com/w/cpp/error/bad_exception
 */
 #include <iostream>

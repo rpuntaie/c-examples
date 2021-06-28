@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/io_ftell.exe ./c/io_ftell.c && (cd ../_build/c/;./io_ftell.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/io_ftell.exe ./c/io_ftell.c && (cd ../_build/c/;./io_ftell.exe)
 https://en.cppreference.com/w/c/io/ftell
 */
 #include <stdio.h>

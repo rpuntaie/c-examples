@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_strcmp.exe ./c/string_byte_strcmp.c && (cd ../_build/c/;./string_byte_strcmp.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_strcmp.exe ./c/string_byte_strcmp.c && (cd ../_build/c/;./string_byte_strcmp.exe)
 https://en.cppreference.com/w/c/string/byte/strcmp
 */
 #include <string.h>

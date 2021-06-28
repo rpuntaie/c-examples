@@ -1,5 +1,5 @@
 /*
-g++ -std=c++20 -c r/tk.cpp
+g++ -std=c++20 -o ../_build/r/tk.o -c r/tk.cpp
 */
 
 #include <iostream>

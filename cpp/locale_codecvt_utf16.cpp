@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/locale_codecvt_utf16.exe ./cpp/locale_codecvt_utf16.cpp && (cd ../_build/cpp/;./locale_codecvt_utf16.exe)
+g++ --std=c++17 -pthread -o ../_build/cpp/locale_codecvt_utf16.exe ./cpp/locale_codecvt_utf16.cpp && (cd ../_build/cpp/;./locale_codecvt_utf16.exe)
 https://en.cppreference.com/w/cpp/locale/codecvt_utf16
 */
 #include <fstream>

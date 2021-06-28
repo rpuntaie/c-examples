@@ -11,7 +11,7 @@ void print_vec(const std::vector<int>& vec)
     }
     std::cout << '\n';
 }
-int main ()
+int main()
 {
     std::vector<int> vec(3,100);
     print_vec(vec);

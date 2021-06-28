@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/language_pimpl_3.exe ./cpp/language_pimpl_3.cpp && (cd ../_build/cpp/;./language_pimpl_3.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/language_pimpl_3.exe ./cpp/language_pimpl_3.cpp && (cd ../_build/cpp/;./language_pimpl_3.exe)
 https://en.cppreference.com/w/cpp/language/pimpl
 */
 #include <iostream>

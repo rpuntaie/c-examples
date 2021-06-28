@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_wide_wmemset.exe ./c/string_wide_wmemset.c && (cd ../_build/c/;./string_wide_wmemset.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_wide_wmemset.exe ./c/string_wide_wmemset.c && (cd ../_build/c/;./string_wide_wmemset.exe)
 https://en.cppreference.com/w/c/string/wide/wmemset
 */
 #include <stdio.h>

@@ -22,6 +22,6 @@ int main()
     Array a(10);
     a[1] = 1; // OK: the type of a[1] is int&
     const Array ca(10);
-    ca[1] = 2; // Error: the type of ca[1] is int
+    // ca[1] = 2; // Error: the type of ca[1] is int
 }
 

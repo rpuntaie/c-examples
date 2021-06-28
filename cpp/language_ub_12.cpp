@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/language_ub_12.exe ./cpp/language_ub_12.cpp && (cd ../_build/cpp/;./language_ub_12.exe)
+g++ --std=c++20 -pthread -o ../_build/cpp/language_ub_12.exe ./cpp/language_ub_12.cpp
 https://en.cppreference.com/w/cpp/language/ub
 */
 #include <iostream>

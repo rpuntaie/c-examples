@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_attributes_deprecated.exe ./c/language_attributes_deprecated.c && (cd ../_build/c/;./language_attributes_deprecated.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_attributes_deprecated.exe ./c/language_attributes_deprecated.c && (cd ../_build/c/;./language_attributes_deprecated.exe)
 https://en.cppreference.com/w/c/language/attributes/deprecated
 */
 #include <stdio.h>

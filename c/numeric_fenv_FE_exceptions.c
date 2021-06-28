@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_fenv_FE_exceptions.exe ./c/numeric_fenv_FE_exceptions.c && (cd ../_build/c/;./numeric_fenv_FE_exceptions.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_fenv_FE_exceptions.exe ./c/numeric_fenv_FE_exceptions.c && (cd ../_build/c/;./numeric_fenv_FE_exceptions.exe)
 https://en.cppreference.com/w/c/numeric/fenv/FE_exceptions
 */
 #include <stdio.h>

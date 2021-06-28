@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_strspn.exe ./c/string_byte_strspn.c && (cd ../_build/c/;./string_byte_strspn.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_strspn.exe ./c/string_byte_strspn.c && (cd ../_build/c/;./string_byte_strspn.exe)
 https://en.cppreference.com/w/c/string/byte/strspn
 */
 #include <string.h>

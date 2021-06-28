@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/io_fwide.exe ./c/io_fwide.c && (cd ../_build/c/;./io_fwide.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/io_fwide.exe ./c/io_fwide.c && (cd ../_build/c/;./io_fwide.exe) || true
 https://en.cppreference.com/w/c/io/fwide
 */
 #include <wchar.h>

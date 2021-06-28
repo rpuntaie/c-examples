@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_operator_comparison.exe ./c/language_operator_comparison.c && (cd ../_build/c/;./language_operator_comparison.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_operator_comparison.exe ./c/language_operator_comparison.c && (cd ../_build/c/;./language_operator_comparison.exe)
 https://en.cppreference.com/w/c/language/operator_comparison
 */
 #include <assert.h>

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_isnormal.exe ./c/numeric_math_isnormal.c && (cd ../_build/c/;./numeric_math_isnormal.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_isnormal.exe ./c/numeric_math_isnormal.c && (cd ../_build/c/;./numeric_math_isnormal.exe)
 https://en.cppreference.com/w/c/numeric/math/isnormal
 */
 #include <stdio.h>

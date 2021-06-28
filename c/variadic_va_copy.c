@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/variadic_va_copy.exe ./c/variadic_va_copy.c && (cd ../_build/c/;./variadic_va_copy.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/variadic_va_copy.exe ./c/variadic_va_copy.c && (cd ../_build/c/;./variadic_va_copy.exe)
 https://en.cppreference.com/w/c/variadic/va_copy
 */
 #include <stdio.h>

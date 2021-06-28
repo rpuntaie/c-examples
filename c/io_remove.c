@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/io_remove.exe ./c/io_remove.c && (cd ../_build/c/;./io_remove.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/io_remove.exe ./c/io_remove.c && (cd ../_build/c/;./io_remove.exe)
 https://en.cppreference.com/w/c/io/remove
 */
 #include <stdio.h>

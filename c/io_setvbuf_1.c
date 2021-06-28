@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/io_setvbuf_1.exe ./c/io_setvbuf_1.c && (cd ../_build/c/;./io_setvbuf_1.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/io_setvbuf_1.exe ./c/io_setvbuf_1.c && (cd ../_build/c/;./io_setvbuf_1.exe)
 https://en.cppreference.com/w/c/io/setvbuf
 */
 #include <stdio.h>

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_return.exe ./c/language_return.c && (cd ../_build/c/;./language_return.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_return.exe ./c/language_return.c && (cd ../_build/c/;./language_return.exe)
 https://en.cppreference.com/w/c/language/return
 */
 struct s { double i; } f(void); // function returning struct s

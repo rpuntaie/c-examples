@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/error_errno.exe ./c/error_errno.c && (cd ../_build/c/;./error_errno.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/error_errno.exe ./c/error_errno.c && (cd ../_build/c/;./error_errno.exe)
 https://en.cppreference.com/w/c/error/errno
 */
 #include <stdio.h>

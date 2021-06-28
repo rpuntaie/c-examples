@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/program__Exit.exe ./c/program__Exit.c && (cd ../_build/c/;./program__Exit.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/program__Exit.exe ./c/program__Exit.c && (cd ../_build/c/;./program__Exit.exe)
 https://en.cppreference.com/w/c/program/_Exit
 */
 #include <stdlib.h>

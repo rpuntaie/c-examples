@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/memory_malloc.exe ./c/memory_malloc.c && (cd ../_build/c/;./memory_malloc.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/memory_malloc.exe ./c/memory_malloc.c && (cd ../_build/c/;./memory_malloc.exe)
 https://en.cppreference.com/w/c/memory/malloc
 */
 #include <stdio.h>   

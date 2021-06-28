@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_remquo.exe ./c/numeric_math_remquo.c && (cd ../_build/c/;./numeric_math_remquo.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_remquo.exe ./c/numeric_math_remquo.c && (cd ../_build/c/;./numeric_math_remquo.exe)
 https://en.cppreference.com/w/c/numeric/math/remquo
 */
 #include <stdio.h>

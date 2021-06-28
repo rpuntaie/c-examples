@@ -24,9 +24,9 @@ template
         ra[4] = pf(c - base);
     }
 };
-S2<"fail"> s2; // error: string literal cannot be used
+//S2<"fail"> s2; // error: string literal cannot be used
 char okay[] = "okay"; // static object with linkage
-S2< &okay[0] > s2; // error: array element has no linkage
+//S2< &okay[0] > s2; // error: array element has no linkage
 S2<okay> s2; // works
 int a[5];
 int f(int n) { return n; }

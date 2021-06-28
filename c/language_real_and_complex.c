@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_real_and_complex.exe ./c/language_real_and_complex.c && (cd ../_build/c/;./language_real_and_complex.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_real_and_complex.exe ./c/language_real_and_complex.c && (cd ../_build/c/;./language_real_and_complex.exe)
 https://en.cppreference.com/w/c/language/real_and_complex
 */
 #include <stdio.h>

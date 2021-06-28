@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_complex_carg.exe ./c/numeric_complex_carg.c && (cd ../_build/c/;./numeric_complex_carg.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_complex_carg.exe ./c/numeric_complex_carg.c && (cd ../_build/c/;./numeric_complex_carg.exe)
 https://en.cppreference.com/w/c/numeric/complex/carg
 */
 #include <stdio.h>

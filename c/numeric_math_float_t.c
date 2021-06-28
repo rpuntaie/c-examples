@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_float_t.exe ./c/numeric_math_float_t.c && (cd ../_build/c/;./numeric_math_float_t.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_float_t.exe ./c/numeric_math_float_t.c && (cd ../_build/c/;./numeric_math_float_t.exe)
 https://en.cppreference.com/w/c/numeric/math/float_t
 */
 #include <float.h>

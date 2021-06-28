@@ -1,5 +1,5 @@
 /*
-g++ -std=c++20 -c r/to.cpp
+g++ -std=c++20 -o ../_build/r/to.o -c r/to.cpp
 */
 
 #include <string>

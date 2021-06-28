@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/io_fwscanf.exe ./c/io_fwscanf.c && (cd ../_build/c/;./io_fwscanf.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/io_fwscanf.exe ./c/io_fwscanf.c && (cd ../_build/c/;./io_fwscanf.exe)
 https://en.cppreference.com/w/c/io/fwscanf
 */
 #include <stdio.h>

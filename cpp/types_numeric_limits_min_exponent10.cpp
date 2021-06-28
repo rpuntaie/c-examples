@@ -3,6 +3,7 @@ g++ --std=c++20 -pthread -o ../_build/cpp/types_numeric_limits_min_exponent10.ex
 https://en.cppreference.com/w/cpp/types/numeric_limits/min_exponent10
 */
 #include <iostream>
+#include <numeric>
 int main()
 {
     std::cout << "min() = " << std::numeric_limits<float>::min() << '\n'

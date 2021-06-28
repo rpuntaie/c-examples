@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_isalpha.exe ./c/string_byte_isalpha.c && (cd ../_build/c/;./string_byte_isalpha.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_isalpha.exe ./c/string_byte_isalpha.c && (cd ../_build/c/;./string_byte_isalpha.exe)
 https://en.cppreference.com/w/c/string/byte/isalpha
 */
 #include <ctype.h>

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/error_ignore_handler_s.exe ./c/error_ignore_handler_s.c && (cd ../_build/c/;./error_ignore_handler_s.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/error_ignore_handler_s.exe ./c/error_ignore_handler_s.c && (cd ../_build/c/;./error_ignore_handler_s.exe)
 https://en.cppreference.com/w/c/error/ignore_handler_s
 */
 #define __STDC_WANT_LIB_EXT1__ 1

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_strcoll.exe ./c/string_byte_strcoll.c && (cd ../_build/c/;./string_byte_strcoll.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_strcoll.exe ./c/string_byte_strcoll.c && (cd ../_build/c/;./string_byte_strcoll.exe)
 https://en.cppreference.com/w/c/string/byte/strcoll
 */
 #include <stdio.h>

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_atoi.exe ./c/string_byte_atoi.c && (cd ../_build/c/;./string_byte_atoi.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_atoi.exe ./c/string_byte_atoi.c && (cd ../_build/c/;./string_byte_atoi.exe)
 https://en.cppreference.com/w/c/string/byte/atoi
 */
 #include <stdio.h>

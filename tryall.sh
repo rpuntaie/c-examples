@@ -17,7 +17,7 @@ for f in $d*.c*; do
         fi
     fi
     if [[ -n "$cmpl" ]]; then
-        echo "$f" && bash -c "$cmpl" &> /dev/null || echo "fails"
+        printf "$f"  && bash -c "$cmpl" &> /dev/null && printf "\n"  || printf " failed\n"
     fi
 done
 done

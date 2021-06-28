@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language__Noreturn.exe ./c/language__Noreturn.c && (cd ../_build/c/;./language__Noreturn.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language__Noreturn.exe ./c/language__Noreturn.c && (cd ../_build/c/;./language__Noreturn.exe) || true
 https://en.cppreference.com/w/c/language/_Noreturn
 */
 #include <stdlib.h>

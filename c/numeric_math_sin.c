@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_sin.exe ./c/numeric_math_sin.c && (cd ../_build/c/;./numeric_math_sin.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_sin.exe ./c/numeric_math_sin.c && (cd ../_build/c/;./numeric_math_sin.exe)
 https://en.cppreference.com/w/c/numeric/math/sin
 */
 #include <stdio.h>

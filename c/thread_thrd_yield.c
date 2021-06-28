@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/thread_thrd_yield.exe ./c/thread_thrd_yield.c && (cd ../_build/c/;./thread_thrd_yield.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/thread_thrd_yield.exe ./c/thread_thrd_yield.c && (cd ../_build/c/;./thread_thrd_yield.exe)
 https://en.cppreference.com/w/c/thread/thrd_yield
 */
 #include <stdio.h>

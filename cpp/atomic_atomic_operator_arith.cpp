@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/atomic_atomic_operator_arith.exe ./cpp/atomic_atomic_operator_arith.cpp && (cd ../_build/cpp/;./atomic_atomic_operator_arith.exe)
+g++ --std=c++20 -latomic -pthread -o ../_build/cpp/atomic_atomic_operator_arith.exe ./cpp/atomic_atomic_operator_arith.cpp && (cd ../_build/cpp/;./atomic_atomic_operator_arith.exe)
 https://en.cppreference.com/w/cpp/atomic/atomic/operator_arith
 */
 #include <atomic>

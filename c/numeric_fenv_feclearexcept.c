@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_fenv_feclearexcept.exe ./c/numeric_fenv_feclearexcept.c && (cd ../_build/c/;./numeric_fenv_feclearexcept.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_fenv_feclearexcept.exe ./c/numeric_fenv_feclearexcept.c && (cd ../_build/c/;./numeric_fenv_feclearexcept.exe)
 https://en.cppreference.com/w/c/numeric/fenv/feclearexcept
 */
 #include <fenv.h>

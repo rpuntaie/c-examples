@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_wide_towctrans.exe ./c/string_wide_towctrans.c && (cd ../_build/c/;./string_wide_towctrans.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_wide_towctrans.exe ./c/string_wide_towctrans.c && (cd ../_build/c/;./string_wide_towctrans.exe)
 https://en.cppreference.com/w/c/string/wide/towctrans
 */
 #include <locale.h>

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/io_clearerr.exe ./c/io_clearerr.c && (cd ../_build/c/;./io_clearerr.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/io_clearerr.exe ./c/io_clearerr.c && (cd ../_build/c/;./io_clearerr.exe)
 https://en.cppreference.com/w/c/io/clearerr
 */
 #include <stdio.h>

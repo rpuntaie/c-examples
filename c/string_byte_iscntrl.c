@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_iscntrl.exe ./c/string_byte_iscntrl.c && (cd ../_build/c/;./string_byte_iscntrl.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_iscntrl.exe ./c/string_byte_iscntrl.c && (cd ../_build/c/;./string_byte_iscntrl.exe)
 https://en.cppreference.com/w/c/string/byte/iscntrl
 */
 #include <stdio.h>

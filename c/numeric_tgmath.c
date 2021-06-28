@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_tgmath.exe ./c/numeric_tgmath.c && (cd ../_build/c/;./numeric_tgmath.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_tgmath.exe ./c/numeric_tgmath.c && (cd ../_build/c/;./numeric_tgmath.exe)
 https://en.cppreference.com/w/c/numeric/tgmath
 */
 #include <stdio.h>

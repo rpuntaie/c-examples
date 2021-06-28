@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/types_size_t.exe ./c/types_size_t.c && (cd ../_build/c/;./types_size_t.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/types_size_t.exe ./c/types_size_t.c && (cd ../_build/c/;./types_size_t.exe)
 https://en.cppreference.com/w/c/types/size_t
 */
 #include <stdio.h>

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_fabs.exe ./c/numeric_math_fabs.c && (cd ../_build/c/;./numeric_math_fabs.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_fabs.exe ./c/numeric_math_fabs.c && (cd ../_build/c/;./numeric_math_fabs.exe)
 https://en.cppreference.com/w/c/numeric/math/fabs
 */
 #include <stdio.h>

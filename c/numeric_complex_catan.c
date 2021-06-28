@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_complex_catan.exe ./c/numeric_complex_catan.c && (cd ../_build/c/;./numeric_complex_catan.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_complex_catan.exe ./c/numeric_complex_catan.c && (cd ../_build/c/;./numeric_complex_catan.exe)
 https://en.cppreference.com/w/c/numeric/complex/catan
 */
 #include <stdio.h>

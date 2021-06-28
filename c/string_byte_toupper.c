@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_toupper.exe ./c/string_byte_toupper.c && (cd ../_build/c/;./string_byte_toupper.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_toupper.exe ./c/string_byte_toupper.c && (cd ../_build/c/;./string_byte_toupper.exe)
 https://en.cppreference.com/w/c/string/byte/toupper
 */
 #include <stdio.h>

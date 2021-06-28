@@ -2,6 +2,7 @@
 g++ --std=c++20 -pthread -o ../_build/cpp/language_list_initialization.exe ./cpp/language_list_initialization.cpp && (cd ../_build/cpp/;./language_list_initialization.exe)
 https://en.cppreference.com/w/cpp/language/list_initialization
 */
+#include <initializer_list>
 struct X {}; // aggregate
 struct Q { // non-aggregate
     Q() = default;

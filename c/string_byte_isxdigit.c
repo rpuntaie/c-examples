@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_isxdigit.exe ./c/string_byte_isxdigit.c && (cd ../_build/c/;./string_byte_isxdigit.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_isxdigit.exe ./c/string_byte_isxdigit.c && (cd ../_build/c/;./string_byte_isxdigit.exe)
 https://en.cppreference.com/w/c/string/byte/isxdigit
 */
 #include <stdio.h>

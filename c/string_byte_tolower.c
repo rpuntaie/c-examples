@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_tolower.exe ./c/string_byte_tolower.c && (cd ../_build/c/;./string_byte_tolower.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_tolower.exe ./c/string_byte_tolower.c && (cd ../_build/c/;./string_byte_tolower.exe)
 https://en.cppreference.com/w/c/string/byte/tolower
 */
 #include <stdio.h>

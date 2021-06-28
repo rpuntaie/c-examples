@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_lgamma.exe ./c/numeric_math_lgamma.c && (cd ../_build/c/;./numeric_math_lgamma.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_lgamma.exe ./c/numeric_math_lgamma.c && (cd ../_build/c/;./numeric_math_lgamma.exe)
 https://en.cppreference.com/w/c/numeric/math/lgamma
 */
 #include <stdio.h>

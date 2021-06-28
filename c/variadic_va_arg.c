@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/variadic_va_arg.exe ./c/variadic_va_arg.c && (cd ../_build/c/;./variadic_va_arg.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/variadic_va_arg.exe ./c/variadic_va_arg.c && (cd ../_build/c/;./variadic_va_arg.exe)
 https://en.cppreference.com/w/c/variadic/va_arg
 */
 #include <stdio.h>

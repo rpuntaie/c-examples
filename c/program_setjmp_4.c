@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/program_setjmp_4.exe ./c/program_setjmp_4.c && (cd ../_build/c/;./program_setjmp_4.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/program_setjmp_4.exe ./c/program_setjmp_4.c && (cd ../_build/c/;./program_setjmp_4.exe)
 https://en.cppreference.com/w/c/program/setjmp
 */
 #include <stdio.h>

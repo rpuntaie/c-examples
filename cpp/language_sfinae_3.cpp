@@ -20,11 +20,11 @@ struct D1 {
     }; 
 };
 int main() {
-    // Deduction fails in each of these cases:
-    f<A>(0); // A does not contain a member Y
-    f<B>(0); // The Y member of B is not a type
-    g<C>(0); // The N member of C is not a non-type
-    h<D>(0); // The TT member of D is not a template
+    // // Deduction fails in each of these cases:
+    // f<A>(0); // A does not contain a member Y
+    // f<B>(0); // The Y member of B is not a type
+    // g<C>(0); // The N member of C is not a non-type
+    // h<D>(0); // The TT member of D is not a template
     // Deduction succeeds in each of these cases:
     f<B1>(0); 
     g<C1>(0); 

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_isalnum.exe ./c/string_byte_isalnum.c && (cd ../_build/c/;./string_byte_isalnum.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_isalnum.exe ./c/string_byte_isalnum.c && (cd ../_build/c/;./string_byte_isalnum.exe)
 https://en.cppreference.com/w/c/string/byte/isalnum
 */
 #include <stdio.h>

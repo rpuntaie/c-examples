@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/utility_format_formatted_size.exe ./cpp/utility_format_formatted_size.cpp && (cd ../_build/cpp/;./utility_format_formatted_size.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/utility_format_formatted_size.exe ./cpp/utility_format_formatted_size.cpp && (cd ../_build/cpp/;./utility_format_formatted_size.exe)
 https://en.cppreference.com/w/cpp/utility/format/formatted_size
 */
 #include <format>

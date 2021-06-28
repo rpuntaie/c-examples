@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/algorithm_bsearch.exe ./c/algorithm_bsearch.c && (cd ../_build/c/;./algorithm_bsearch.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/algorithm_bsearch.exe ./c/algorithm_bsearch.c && (cd ../_build/c/;./algorithm_bsearch.exe)
 https://en.cppreference.com/w/c/algorithm/bsearch
 */
 #include <stdlib.h>

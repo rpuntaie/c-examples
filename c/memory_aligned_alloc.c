@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/memory_aligned_alloc.exe ./c/memory_aligned_alloc.c && (cd ../_build/c/;./memory_aligned_alloc.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/memory_aligned_alloc.exe ./c/memory_aligned_alloc.c && (cd ../_build/c/;./memory_aligned_alloc.exe)
 https://en.cppreference.com/w/c/memory/aligned_alloc
 */
 #include <stdio.h>

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/io_setbuf_1.exe ./c/io_setbuf_1.c && (cd ../_build/c/;./io_setbuf_1.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/io_setbuf_1.exe ./c/io_setbuf_1.c && (cd ../_build/c/;./io_setbuf_1.exe)
 https://en.cppreference.com/w/c/io/setbuf
 */
 #include <stdio.h>

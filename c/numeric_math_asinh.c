@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_asinh.exe ./c/numeric_math_asinh.c && (cd ../_build/c/;./numeric_math_asinh.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_asinh.exe ./c/numeric_math_asinh.c && (cd ../_build/c/;./numeric_math_asinh.exe)
 https://en.cppreference.com/w/c/numeric/math/asinh
 */
 #include <stdio.h>

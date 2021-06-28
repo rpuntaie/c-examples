@@ -6,7 +6,7 @@ g++ -std=c++20 -o ../_build/r/a1.exe r/a1.cpp && (cd ../_build/r;./a1.exe)
 #include <algorithm>    // std::all_of
 #include <array>        // std::array
 
-int main () {
+int main() {
   std::array<int,8> foo = {3,5,7,11,13,17,19,23};
 
   //any_of

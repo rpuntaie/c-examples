@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/experimental_deque_erase.exe ./cpp/experimental_deque_erase.cpp && (cd ../_build/cpp/;./experimental_deque_erase.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/experimental_deque_erase.exe ./cpp/experimental_deque_erase.cpp && (cd ../_build/cpp/;./experimental_deque_erase.exe)
 https://en.cppreference.com/w/cpp/experimental/deque/erase
 */
 #include <experimental/deque>

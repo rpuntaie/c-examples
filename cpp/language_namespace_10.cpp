@@ -13,7 +13,7 @@ int main()
 {
     std::vector<int> v1; // Standard vector.
     vec::vector<int> v2; // User defined vector.
-    v1 = v2;             // Error: v1 and v2 are different object's type.
+    // v1 = v2;             // Error: v1 and v2 are different object's type.
     {
         using namespace std;
         vector<int> v3;  // Same as std::vector

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_complex_casin.exe ./c/numeric_complex_casin.c && (cd ../_build/c/;./numeric_complex_casin.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_complex_casin.exe ./c/numeric_complex_casin.c && (cd ../_build/c/;./numeric_complex_casin.exe)
 https://en.cppreference.com/w/c/numeric/complex/casin
 */
 #include <stdio.h>

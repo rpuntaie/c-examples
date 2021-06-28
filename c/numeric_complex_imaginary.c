@@ -1,5 +1,6 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_complex_imaginary.exe ./c/numeric_complex_imaginary.c && (cd ../_build/c/;./numeric_complex_imaginary.exe)
+No compiler support.
+# gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_complex_imaginary.exe ./c/numeric_complex_imaginary.c && (cd ../_build/c/;./numeric_complex_imaginary.exe)
 https://en.cppreference.com/w/c/numeric/complex/imaginary
 */
 #include <stdio.h>

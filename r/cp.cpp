@@ -1,5 +1,5 @@
 /*
-g++ -std=c++20 -pthread -o ../_build/r/cp.exe r/cp.cpp && (cd ../_build/r;./cp.exe)
+g++ -std=c++20 -latomic -pthread -o ../_build/r/cp.exe r/cp.cpp && (cd ../_build/r;./cp.exe)
 */
 
 #include <atomic>

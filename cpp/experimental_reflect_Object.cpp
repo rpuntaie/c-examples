@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/experimental_reflect_Object.exe ./cpp/experimental_reflect_Object.cpp && (cd ../_build/cpp/;./experimental_reflect_Object.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/experimental_reflect_Object.exe ./cpp/experimental_reflect_Object.cpp && (cd ../_build/cpp/;./experimental_reflect_Object.exe)
 https://en.cppreference.com/w/cpp/experimental/reflect/Object
 */
 #include<experimental/reflect>

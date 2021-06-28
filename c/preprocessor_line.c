@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/preprocessor_line.exe ./c/preprocessor_line.c && (cd ../_build/c/;./preprocessor_line.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/preprocessor_line.exe ./c/preprocessor_line.c && (cd ../_build/c/;./preprocessor_line.exe) || true
 https://en.cppreference.com/w/c/preprocessor/line
 */
 #include <assert.h>

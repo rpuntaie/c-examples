@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_boolean_type.exe ./c/language_boolean_type.c && (cd ../_build/c/;./language_boolean_type.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_boolean_type.exe ./c/language_boolean_type.c && (cd ../_build/c/;./language_boolean_type.exe)
 https://en.cppreference.com/w/c/language/boolean_type
 */
 #include <stdio.h>

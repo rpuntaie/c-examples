@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_complex_cexp.exe ./c/numeric_complex_cexp.c && (cd ../_build/c/;./numeric_complex_cexp.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_complex_cexp.exe ./c/numeric_complex_cexp.c && (cd ../_build/c/;./numeric_complex_cexp.exe)
 https://en.cppreference.com/w/c/numeric/complex/cexp
 */
 #include <stdio.h>

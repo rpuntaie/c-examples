@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_nextafter.exe ./c/numeric_math_nextafter.c && (cd ../_build/c/;./numeric_math_nextafter.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_nextafter.exe ./c/numeric_math_nextafter.c && (cd ../_build/c/;./numeric_math_nextafter.exe)
 https://en.cppreference.com/w/c/numeric/math/nextafter
 */
 #include <math.h>

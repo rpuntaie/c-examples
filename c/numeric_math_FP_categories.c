@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_FP_categories.exe ./c/numeric_math_FP_categories.c && (cd ../_build/c/;./numeric_math_FP_categories.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_FP_categories.exe ./c/numeric_math_FP_categories.c && (cd ../_build/c/;./numeric_math_FP_categories.exe)
 https://en.cppreference.com/w/c/numeric/math/FP_categories
 */
 #include <stdio.h>

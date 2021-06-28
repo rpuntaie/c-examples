@@ -5,7 +5,7 @@ https://en.cppreference.com/w/cpp/language/operator_member_access
 void f(int) {}
 void f(double) {}
 struct A { int i; };
-struct B { void f(); };
+struct B { void f(){}; };
 int main()
 {
     int n = 1;

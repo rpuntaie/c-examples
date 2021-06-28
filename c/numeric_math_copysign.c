@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_copysign.exe ./c/numeric_math_copysign.c && (cd ../_build/c/;./numeric_math_copysign.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_copysign.exe ./c/numeric_math_copysign.c && (cd ../_build/c/;./numeric_math_copysign.exe)
 https://en.cppreference.com/w/c/numeric/math/copysign
 */
 #include <stdio.h>

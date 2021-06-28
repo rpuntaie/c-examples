@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/keyword_reflexpr.exe ./cpp/keyword_reflexpr.cpp && (cd ../_build/cpp/;./keyword_reflexpr.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/keyword_reflexpr.exe ./cpp/keyword_reflexpr.cpp && (cd ../_build/cpp/;./keyword_reflexpr.exe)
 https://en.cppreference.com/w/cpp/keyword/reflexpr
 */
 #include <string>

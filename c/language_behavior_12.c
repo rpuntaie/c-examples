@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_behavior_12.exe ./c/language_behavior_12.c && (cd ../_build/c/;./language_behavior_12.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_behavior_12.exe ./c/language_behavior_12.c && (cd ../_build/c/;./language_behavior_12.exe)
 https://en.cppreference.com/w/c/language/behavior
 */
 #include <stdio.h>

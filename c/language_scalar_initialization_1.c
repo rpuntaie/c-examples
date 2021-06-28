@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_scalar_initialization_1.exe ./c/language_scalar_initialization_1.c && (cd ../_build/c/;./language_scalar_initialization_1.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_scalar_initialization_1.exe ./c/language_scalar_initialization_1.c && (cd ../_build/c/;./language_scalar_initialization_1.exe)
 https://en.cppreference.com/w/c/language/scalar_initialization
 */
 #include <stdbool.h>

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_acos.exe ./c/numeric_math_acos.c && (cd ../_build/c/;./numeric_math_acos.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_acos.exe ./c/numeric_math_acos.c && (cd ../_build/c/;./numeric_math_acos.exe)
 https://en.cppreference.com/w/c/numeric/math/acos
 */
 #include <stdio.h>

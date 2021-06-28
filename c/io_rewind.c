@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/io_rewind.exe ./c/io_rewind.c && (cd ../_build/c/;./io_rewind.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/io_rewind.exe ./c/io_rewind.c && (cd ../_build/c/;./io_rewind.exe)
 https://en.cppreference.com/w/c/io/rewind
 */
 #include <stdio.h>

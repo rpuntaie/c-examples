@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_complex_ctanh.exe ./c/numeric_complex_ctanh.c && (cd ../_build/c/;./numeric_complex_ctanh.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_complex_ctanh.exe ./c/numeric_complex_ctanh.c && (cd ../_build/c/;./numeric_complex_ctanh.exe)
 https://en.cppreference.com/w/c/numeric/complex/ctanh
 */
 #include <stdio.h>

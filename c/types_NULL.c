@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/types_NULL.exe ./c/types_NULL.c && (cd ../_build/c/;./types_NULL.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/types_NULL.exe ./c/types_NULL.c && (cd ../_build/c/;./types_NULL.exe)
 https://en.cppreference.com/w/c/types/NULL
 */
 #include <stdlib.h>

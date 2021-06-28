@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_array_initialization_8.exe ./c/language_array_initialization_8.c && (cd ../_build/c/;./language_array_initialization_8.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_array_initialization_8.exe ./c/language_array_initialization_8.c && (cd ../_build/c/;./language_array_initialization_8.exe)
 https://en.cppreference.com/w/c/language/array_initialization
 */
 int main(void)

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/chrono_wcsftime.exe ./c/chrono_wcsftime.c && (cd ../_build/c/;./chrono_wcsftime.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/chrono_wcsftime.exe ./c/chrono_wcsftime.c && (cd ../_build/c/;./chrono_wcsftime.exe)
 https://en.cppreference.com/w/c/chrono/wcsftime
 */
 #include <stdio.h>

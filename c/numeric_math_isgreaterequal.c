@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_isgreaterequal.exe ./c/numeric_math_isgreaterequal.c && (cd ../_build/c/;./numeric_math_isgreaterequal.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_isgreaterequal.exe ./c/numeric_math_isgreaterequal.c && (cd ../_build/c/;./numeric_math_isgreaterequal.exe)
 https://en.cppreference.com/w/c/numeric/math/isgreaterequal
 */
 #include <stdio.h>

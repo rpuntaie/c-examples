@@ -14,7 +14,7 @@ void foo(const std::vector<T> &v)
     // of the type-dependent member variable 'const_iterator' 
     // and some variable 'p'. Since there is a global 'p' visible
     // at this point, this template definition compiles.
-    std::vector<T>::const_iterator* p; 
+    //// std::vector<T>::const_iterator* p; 
     typedef typename std::vector<T>::const_iterator iter_t;
     iter_t * p2; // iter_t is a dependent name, but it's known to be a type name
 }

@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/types_is_pointer_interconvertible_with_class.exe ./cpp/types_is_pointer_interconvertible_with_class.cpp && (cd ../_build/cpp/;./types_is_pointer_interconvertible_with_class.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/types_is_pointer_interconvertible_with_class.exe ./cpp/types_is_pointer_interconvertible_with_class.cpp && (cd ../_build/cpp/;./types_is_pointer_interconvertible_with_class.exe)
 https://en.cppreference.com/w/cpp/types/is_pointer_interconvertible_with_class
 */
 #include <type_traits>

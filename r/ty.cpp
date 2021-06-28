@@ -1,5 +1,5 @@
 /*
-g++ -std=c++20 -c r/ty.cpp
+g++ -std=c++20 -o ../_build/r/ty.o -c r/ty.cpp
 */
 
 #include <memory>

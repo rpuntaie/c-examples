@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/io_fputc.exe ./c/io_fputc.c && (cd ../_build/c/;./io_fputc.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/io_fputc.exe ./c/io_fputc.c && (cd ../_build/c/;./io_fputc.exe)
 https://en.cppreference.com/w/c/io/fputc
 */
 #include <stdio.h>

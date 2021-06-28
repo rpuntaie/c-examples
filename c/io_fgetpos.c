@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/io_fgetpos.exe ./c/io_fgetpos.c && (cd ../_build/c/;./io_fgetpos.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/io_fgetpos.exe ./c/io_fgetpos.c && (cd ../_build/c/;./io_fgetpos.exe)
 https://en.cppreference.com/w/c/io/fgetpos
 */
 #include <stdio.h>

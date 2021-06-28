@@ -8,7 +8,7 @@ int main()
 {
     extern int g();
     class Local { // Local class in the main() function
-        friend int f(); // Error, no such function declared in main()
+        // friend int f(); // Error, no such function declared in main()
         friend int g(); // OK, there is a declaration for g in main()
         friend class F; // friends a local F (defined later)
         friend class ::F; // friends the global F

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_multibyte_mbrtoc32.exe ./c/string_multibyte_mbrtoc32.c && (cd ../_build/c/;./string_multibyte_mbrtoc32.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_multibyte_mbrtoc32.exe ./c/string_multibyte_mbrtoc32.c && (cd ../_build/c/;./string_multibyte_mbrtoc32.exe)
 https://en.cppreference.com/w/c/string/multibyte/mbrtoc32
 */
 #include <stdio.h>

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_remainder.exe ./c/numeric_math_remainder.c && (cd ../_build/c/;./numeric_math_remainder.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_remainder.exe ./c/numeric_math_remainder.c && (cd ../_build/c/;./numeric_math_remainder.exe)
 https://en.cppreference.com/w/c/numeric/math/remainder
 */
 #include <stdio.h>

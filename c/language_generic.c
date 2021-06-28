@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_generic.exe ./c/language_generic.c && (cd ../_build/c/;./language_generic.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_generic.exe ./c/language_generic.c && (cd ../_build/c/;./language_generic.exe)
 https://en.cppreference.com/w/c/language/generic
 */
 #include <stdio.h>

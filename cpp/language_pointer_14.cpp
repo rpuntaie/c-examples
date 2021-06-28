@@ -2,6 +2,7 @@
 g++ --std=c++20 -pthread -o ../_build/cpp/language_pointer_14.exe ./cpp/language_pointer_14.cpp && (cd ../_build/cpp/;./language_pointer_14.exe)
 https://en.cppreference.com/w/cpp/language/pointer
 */
+#include <iostream>
 struct Base {};
 struct Derived : Base { int m; };
 int main()

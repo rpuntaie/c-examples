@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_cbrt.exe ./c/numeric_math_cbrt.c && (cd ../_build/c/;./numeric_math_cbrt.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_cbrt.exe ./c/numeric_math_cbrt.c && (cd ../_build/c/;./numeric_math_cbrt.exe)
 https://en.cppreference.com/w/c/numeric/math/cbrt
 */
 #include <stdio.h>

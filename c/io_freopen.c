@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/io_freopen.exe ./c/io_freopen.c && (cd ../_build/c/;./io_freopen.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/io_freopen.exe ./c/io_freopen.c && (cd ../_build/c/;./io_freopen.exe)
 https://en.cppreference.com/w/c/io/freopen
 */
 #include <stdio.h>

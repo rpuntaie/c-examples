@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/thread_condition_variable_any_wait_until_2.exe ./cpp/thread_condition_variable_any_wait_until_2.cpp && (cd ../_build/cpp/;./thread_condition_variable_any_wait_until_2.exe)
+g++ --std=c++20 -latomic -pthread -o ../_build/cpp/thread_condition_variable_any_wait_until_2.exe ./cpp/thread_condition_variable_any_wait_until_2.cpp && (cd ../_build/cpp/;./thread_condition_variable_any_wait_until_2.exe)
 https://en.cppreference.com/w/cpp/thread/condition_variable_any/wait_until
 */
 #include <iostream>

@@ -5,7 +5,7 @@ https://en.cppreference.com/w/cpp/container/unordered_map/insert
 #include <string>
 #include <iostream>
 #include <unordered_map>
-int main ()
+int main()
 {
     std::unordered_map<int, std::string> dict = {{1, "one"}, {2, "two"}};
     dict.insert({3, "three"});

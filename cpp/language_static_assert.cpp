@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/language_static_assert.exe ./cpp/language_static_assert.cpp && (cd ../_build/cpp/;./language_static_assert.exe)
+g++ --std=c++20 -pthread -o ../_build/cpp/language_static_assert.exe ./cpp/language_static_assert.cpp && (cd ../_build/cpp/;./language_static_assert.exe) || true
 https://en.cppreference.com/w/cpp/language/static_assert
 */
 #include <type_traits>

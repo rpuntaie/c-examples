@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_fenv_fetestexcept.exe ./c/numeric_fenv_fetestexcept.c && (cd ../_build/c/;./numeric_fenv_fetestexcept.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_fenv_fetestexcept.exe ./c/numeric_fenv_fetestexcept.c && (cd ../_build/c/;./numeric_fenv_fetestexcept.exe)
 https://en.cppreference.com/w/c/numeric/fenv/fetestexcept
 */
 #include <stdio.h>

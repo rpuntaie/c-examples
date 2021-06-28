@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_fenv_feround.exe ./c/numeric_fenv_feround.c && (cd ../_build/c/;./numeric_fenv_feround.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_fenv_feround.exe ./c/numeric_fenv_feround.c && (cd ../_build/c/;./numeric_fenv_feround.exe)
 https://en.cppreference.com/w/c/numeric/fenv/feround
 */
 #include <stdio.h>

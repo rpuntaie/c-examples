@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/experimental_search.exe ./cpp/experimental_search.cpp && (cd ../_build/cpp/;./experimental_search.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/experimental_search.exe ./cpp/experimental_search.cpp && (cd ../_build/cpp/;./experimental_search.exe)
 https://en.cppreference.com/w/cpp/experimental/search
 */
 #include <iostream>

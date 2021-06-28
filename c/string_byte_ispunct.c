@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_ispunct.exe ./c/string_byte_ispunct.c && (cd ../_build/c/;./string_byte_ispunct.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_ispunct.exe ./c/string_byte_ispunct.c && (cd ../_build/c/;./string_byte_ispunct.exe)
 https://en.cppreference.com/w/c/string/byte/ispunct
 */
 #include <stdio.h>

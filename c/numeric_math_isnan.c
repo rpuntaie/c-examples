@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_isnan.exe ./c/numeric_math_isnan.c && (cd ../_build/c/;./numeric_math_isnan.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_isnan.exe ./c/numeric_math_isnan.c && (cd ../_build/c/;./numeric_math_isnan.exe)
 https://en.cppreference.com/w/c/numeric/math/isnan
 */
 #include <stdio.h>

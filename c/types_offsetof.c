@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/types_offsetof.exe ./c/types_offsetof.c && (cd ../_build/c/;./types_offsetof.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/types_offsetof.exe ./c/types_offsetof.c && (cd ../_build/c/;./types_offsetof.exe)
 https://en.cppreference.com/w/c/types/offsetof
 */
 #include <stdio.h>

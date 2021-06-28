@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_fenv_feexceptflag.exe ./c/numeric_fenv_feexceptflag.c && (cd ../_build/c/;./numeric_fenv_feexceptflag.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_fenv_feexceptflag.exe ./c/numeric_fenv_feexceptflag.c && (cd ../_build/c/;./numeric_fenv_feexceptflag.exe)
 https://en.cppreference.com/w/c/numeric/fenv/feexceptflag
 */
 #include <stdio.h>

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_strtoul.exe ./c/string_byte_strtoul.c && (cd ../_build/c/;./string_byte_strtoul.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_strtoul.exe ./c/string_byte_strtoul.c && (cd ../_build/c/;./string_byte_strtoul.exe)
 https://en.cppreference.com/w/c/string/byte/strtoul
 */
 #include <stdio.h>

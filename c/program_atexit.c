@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/program_atexit.exe ./c/program_atexit.c && (cd ../_build/c/;./program_atexit.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/program_atexit.exe ./c/program_atexit.c && (cd ../_build/c/;./program_atexit.exe)
 https://en.cppreference.com/w/c/program/atexit
 */
 #include <stdlib.h>

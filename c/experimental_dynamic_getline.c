@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/experimental_dynamic_getline.exe ./c/experimental_dynamic_getline.c && (cd ../_build/c/;./experimental_dynamic_getline.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/experimental_dynamic_getline.exe ./c/experimental_dynamic_getline.c && (cd ../_build/c/;yes|./experimental_dynamic_getline.exe)
 https://en.cppreference.com/w/c/experimental/dynamic/getline
 */
 #ifdef __STDC_ALLOC_LIB__

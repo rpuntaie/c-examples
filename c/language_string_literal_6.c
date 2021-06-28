@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_string_literal_6.exe ./c/language_string_literal_6.c && (cd ../_build/c/;./language_string_literal_6.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_string_literal_6.exe ./c/language_string_literal_6.c && (cd ../_build/c/;./language_string_literal_6.exe)
 https://en.cppreference.com/w/c/language/string_literal
 */
 #include <stdio.h>

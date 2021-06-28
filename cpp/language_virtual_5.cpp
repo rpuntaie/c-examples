@@ -4,22 +4,22 @@ https://en.cppreference.com/w/cpp/language/virtual
 */
 class B {};
 struct Base {
-    virtual void vf1();
-    virtual void vf2();
-    virtual void vf3();
-    virtual B* vf4();
-    virtual B* vf5();
+    virtual void vf1(){};
+    virtual void vf2(){};
+    virtual void vf3(){};
+    virtual B* vf4(){return new B{};};
+    virtual B* vf5(){return new B{};};
 };
 class D : private B {
     friend struct Derived; // in Derived, B is an accessible base of D
 };
 class A; // forward-declared class is an incomplete type
 struct Derived : public Base {
-    void vf1();    // virtual, overrides Base::vf1()
-    void vf2(int); // non-virtual, hides Base::vf2()
+    void vf1(){};    // virtual, overrides Base::vf1()
+    void vf2(int){}; // non-virtual, hides Base::vf2()
 //  char vf3();    // Error: overrides Base::vf3, but has different
                    // and non-covariant return type
-    D* vf4();      // overrides Base::vf4() and has covariant return type
+    D* vf4(){return new D{};};      // overrides Base::vf4() and has covariant return type
 //  A* vf5();      // Error: A is incomplete type
 };
 int main()

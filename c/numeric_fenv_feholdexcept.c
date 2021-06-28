@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_fenv_feholdexcept.exe ./c/numeric_fenv_feholdexcept.c && (cd ../_build/c/;./numeric_fenv_feholdexcept.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_fenv_feholdexcept.exe ./c/numeric_fenv_feholdexcept.c && (cd ../_build/c/;./numeric_fenv_feholdexcept.exe)
 https://en.cppreference.com/w/c/numeric/fenv/feholdexcept
 */
 #include <stdio.h>

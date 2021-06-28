@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_strtol.exe ./c/string_byte_strtol.c && (cd ../_build/c/;./string_byte_strtol.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_strtol.exe ./c/string_byte_strtol.c && (cd ../_build/c/;./string_byte_strtol.exe)
 https://en.cppreference.com/w/c/string/byte/strtol
 */
 #include <errno.h>

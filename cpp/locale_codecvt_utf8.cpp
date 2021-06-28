@@ -1,5 +1,6 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/locale_codecvt_utf8.exe ./cpp/locale_codecvt_utf8.cpp && (cd ../_build/cpp/;./locale_codecvt_utf8.exe)
+ONLY C++11 and C++17
+g++ --std=c++17 -pthread -o ../_build/cpp/locale_codecvt_utf8.exe ./cpp/locale_codecvt_utf8.cpp && (cd ../_build/cpp/;./locale_codecvt_utf8.exe)
 https://en.cppreference.com/w/cpp/locale/codecvt_utf8
 */
 #include <iostream>

@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/algorithm_ranges_ends_with.exe ./cpp/algorithm_ranges_ends_with.cpp && (cd ../_build/cpp/;./algorithm_ranges_ends_with.exe)
+#C23 g++ --std=c++20 -pthread -o ../_build/cpp/algorithm_ranges_ends_with.exe ./cpp/algorithm_ranges_ends_with.cpp && (cd ../_build/cpp/;./algorithm_ranges_ends_with.exe)
 https://en.cppreference.com/w/cpp/algorithm/ranges/ends_with
 */
 #include <algorithm>

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/io_fopen.exe ./c/io_fopen.c && (cd ../_build/c/;./io_fopen.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/io_fopen.exe ./c/io_fopen.c && (cd ../_build/c/;./io_fopen.exe)
 https://en.cppreference.com/w/c/io/fopen
 */
 #include <stdio.h>

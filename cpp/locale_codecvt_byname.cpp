@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/locale_codecvt_byname.exe ./cpp/locale_codecvt_byname.cpp && (cd ../_build/cpp/;./locale_codecvt_byname.exe)
+g++ --std=c++17 -pthread -o ../_build/cpp/locale_codecvt_byname.exe ./cpp/locale_codecvt_byname.cpp && (cd ../_build/cpp/;./locale_codecvt_byname.exe) || true
 https://en.cppreference.com/w/cpp/locale/codecvt_byname
 */
 #include <iostream>

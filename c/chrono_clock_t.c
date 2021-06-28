@@ -1,11 +1,11 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/chrono_clock_t.exe ./c/chrono_clock_t.c && (cd ../_build/c/;./chrono_clock_t.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/chrono_clock_t.exe ./c/chrono_clock_t.c && (cd ../_build/c/;./chrono_clock_t.exe)
 https://en.cppreference.com/w/c/chrono/clock_t
 */
 #include <stdio.h>
 #include <time.h>
 volatile unsigned sink;
-int main (void)
+int main(void)
 {
   clock_t start = clock();
   for(size_t i=0; i<10000000; ++i)

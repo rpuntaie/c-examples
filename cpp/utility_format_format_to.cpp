@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/utility_format_format_to.exe ./cpp/utility_format_format_to.cpp && (cd ../_build/cpp/;./utility_format_format_to.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/utility_format_format_to.exe ./cpp/utility_format_format_to.cpp && (cd ../_build/cpp/;./utility_format_format_to.exe)
 https://en.cppreference.com/w/cpp/utility/format/format_to
 */
 #include <format>

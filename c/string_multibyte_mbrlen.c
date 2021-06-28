@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_multibyte_mbrlen.exe ./c/string_multibyte_mbrlen.c && (cd ../_build/c/;./string_multibyte_mbrlen.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_multibyte_mbrlen.exe ./c/string_multibyte_mbrlen.c && (cd ../_build/c/;./string_multibyte_mbrlen.exe)
 https://en.cppreference.com/w/c/string/multibyte/mbrlen
 */
 #include <locale.h>

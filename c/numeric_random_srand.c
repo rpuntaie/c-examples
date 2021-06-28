@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_random_srand.exe ./c/numeric_random_srand.c && (cd ../_build/c/;./numeric_random_srand.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_random_srand.exe ./c/numeric_random_srand.c && (cd ../_build/c/;./numeric_random_srand.exe)
 https://en.cppreference.com/w/c/numeric/random/srand
 */
 #include <stdio.h>

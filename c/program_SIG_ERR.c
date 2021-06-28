@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/program_SIG_ERR.exe ./c/program_SIG_ERR.c && (cd ../_build/c/;./program_SIG_ERR.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/program_SIG_ERR.exe ./c/program_SIG_ERR.c && (cd ../_build/c/;./program_SIG_ERR.exe)
 https://en.cppreference.com/w/c/program/SIG_ERR
 */
 #include <stdio.h>

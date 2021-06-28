@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_wide_wcstoimax.exe ./c/string_wide_wcstoimax.c && (cd ../_build/c/;./string_wide_wcstoimax.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_wide_wcstoimax.exe ./c/string_wide_wcstoimax.c && (cd ../_build/c/;./string_wide_wcstoimax.exe)
 https://en.cppreference.com/w/c/string/wide/wcstoimax
 */
 #include <errno.h>

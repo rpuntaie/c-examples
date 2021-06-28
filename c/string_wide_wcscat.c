@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_wide_wcscat.exe ./c/string_wide_wcscat.c && (cd ../_build/c/;./string_wide_wcscat.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_wide_wcscat.exe ./c/string_wide_wcscat.c && (cd ../_build/c/;./string_wide_wcscat.exe)
 https://en.cppreference.com/w/c/string/wide/wcscat
 */
 #include <wchar.h> 

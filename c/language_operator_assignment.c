@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_operator_assignment.exe ./c/language_operator_assignment.c && (cd ../_build/c/;./language_operator_assignment.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_operator_assignment.exe ./c/language_operator_assignment.c #segfault: && (cd ../_build/c/;./language_operator_assignment.exe)
 https://en.cppreference.com/w/c/language/operator_assignment
 */
 #include <stdio.h>

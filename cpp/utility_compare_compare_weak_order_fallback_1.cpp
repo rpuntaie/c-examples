@@ -4,6 +4,7 @@ https://en.cppreference.com/w/cpp/utility/compare/compare_weak_order_fallback
 */
 #include <iostream>
 #include <compare>
+#include <concepts>
 // does not support <=>
 struct Rational_1 {
     int num;
@@ -44,6 +45,6 @@ int main()
     Rational_2 c{6, 5};
     Rational_2 d{8, 7};
     print(c <=> d);                // works
-    print(std::compare_weak_order_fallback(c, d)); // works
+    // print(std::compare_weak_order_fallback(c, d)); // works ?? (not with g++ 11.1)
 }
 

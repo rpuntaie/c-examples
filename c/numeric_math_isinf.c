@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_isinf.exe ./c/numeric_math_isinf.c && (cd ../_build/c/;./numeric_math_isinf.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_isinf.exe ./c/numeric_math_isinf.c && (cd ../_build/c/;./numeric_math_isinf.exe)
 https://en.cppreference.com/w/c/numeric/math/isinf
 */
 #include <stdio.h>

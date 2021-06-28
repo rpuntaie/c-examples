@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_math_errhandling.exe ./c/numeric_math_math_errhandling.c && (cd ../_build/c/;./numeric_math_math_errhandling.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_math_errhandling.exe ./c/numeric_math_math_errhandling.c && (cd ../_build/c/;./numeric_math_math_errhandling.exe)
 https://en.cppreference.com/w/c/numeric/math/math_errhandling
 */
 #include <stdio.h>

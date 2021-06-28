@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_HUGE_VAL.exe ./c/numeric_math_HUGE_VAL.c && (cd ../_build/c/;./numeric_math_HUGE_VAL.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_HUGE_VAL.exe ./c/numeric_math_HUGE_VAL.c && (cd ../_build/c/;./numeric_math_HUGE_VAL.exe)
 https://en.cppreference.com/w/c/numeric/math/HUGE_VAL
 */
 #include <math.h>

@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/utility_to_underlying.exe ./cpp/utility_to_underlying.cpp && (cd ../_build/cpp/;./utility_to_underlying.exe)
+g++ --std=c++23 -pthread -o ../_build/cpp/utility_to_underlying.exe ./cpp/utility_to_underlying.cpp && (cd ../_build/cpp/;./utility_to_underlying.exe)
 https://en.cppreference.com/w/cpp/utility/to_underlying
 */
 #include <cstdint>

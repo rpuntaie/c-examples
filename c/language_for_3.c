@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_for_3.exe ./c/language_for_3.c && (cd ../_build/c/;./language_for_3.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_for_3.exe ./c/language_for_3.c && (cd ../_build/c/;./language_for_3.exe)
 https://en.cppreference.com/w/c/language/for
 */
 #include <stdio.h>

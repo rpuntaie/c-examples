@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/experimental_forward_list_erase.exe ./cpp/experimental_forward_list_erase.cpp && (cd ../_build/cpp/;./experimental_forward_list_erase.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/experimental_forward_list_erase.exe ./cpp/experimental_forward_list_erase.cpp && (cd ../_build/cpp/;./experimental_forward_list_erase.exe)
 https://en.cppreference.com/w/cpp/experimental/forward_list/erase
 */
 #include <experimental/forward_list>

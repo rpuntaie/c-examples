@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/atomic_atomic_fetch_add.exe ./c/atomic_atomic_fetch_add.c && (cd ../_build/c/;./atomic_atomic_fetch_add.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/atomic_atomic_fetch_add.exe ./c/atomic_atomic_fetch_add.c && (cd ../_build/c/;./atomic_atomic_fetch_add.exe)
 https://en.cppreference.com/w/c/atomic/atomic_fetch_add
 */
 #include <stdio.h>

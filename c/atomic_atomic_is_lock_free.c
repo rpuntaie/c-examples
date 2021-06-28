@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/atomic_atomic_is_lock_free.exe ./c/atomic_atomic_is_lock_free.c && (cd ../_build/c/;./atomic_atomic_is_lock_free.exe)
+gcc -std=c17 -latomic -lc -lm -pthread -o ../_build/c/atomic_atomic_is_lock_free.exe ./c/atomic_atomic_is_lock_free.c
 https://en.cppreference.com/w/c/atomic/atomic_is_lock_free
 */
 #include <stdio.h>

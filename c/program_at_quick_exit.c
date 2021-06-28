@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/program_at_quick_exit.exe ./c/program_at_quick_exit.c && (cd ../_build/c/;./program_at_quick_exit.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/program_at_quick_exit.exe ./c/program_at_quick_exit.c && (cd ../_build/c/;./program_at_quick_exit.exe)
 https://en.cppreference.com/w/c/program/at_quick_exit
 */
 #include <stdlib.h>

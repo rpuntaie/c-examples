@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/locale_codecvt_mode.exe ./cpp/locale_codecvt_mode.cpp && (cd ../_build/cpp/;./locale_codecvt_mode.exe)
+g++ --std=c++17 -pthread -o ../_build/cpp/locale_codecvt_mode.exe ./cpp/locale_codecvt_mode.cpp && (cd ../_build/cpp/;./locale_codecvt_mode.exe)
 https://en.cppreference.com/w/cpp/locale/codecvt_mode
 */
 #include <fstream>

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_logb.exe ./c/numeric_math_logb.c && (cd ../_build/c/;./numeric_math_logb.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_logb.exe ./c/numeric_math_logb.c && (cd ../_build/c/;./numeric_math_logb.exe)
 https://en.cppreference.com/w/c/numeric/math/logb
 */
 #include <stdio.h>

@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/experimental_reseed.exe ./cpp/experimental_reseed.cpp && (cd ../_build/cpp/;./experimental_reseed.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/experimental_reseed.exe ./cpp/experimental_reseed.cpp && (cd ../_build/cpp/;./experimental_reseed.exe)
 https://en.cppreference.com/w/cpp/experimental/reseed
 */
 #include <experimental/random>

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_operator_arithmetic_5.exe ./c/language_operator_arithmetic_5.c && (cd ../_build/c/;./language_operator_arithmetic_5.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_operator_arithmetic_5.exe ./c/language_operator_arithmetic_5.c && (cd ../_build/c/;./language_operator_arithmetic_5.exe)
 https://en.cppreference.com/w/c/language/operator_arithmetic
 */
 #include <stdio.h>

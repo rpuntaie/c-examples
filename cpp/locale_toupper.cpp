@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/locale_toupper.exe ./cpp/locale_toupper.cpp && (cd ../_build/cpp/;./locale_toupper.exe)
+g++ --std=c++17 -pthread -o ../_build/cpp/locale_toupper.exe ./cpp/locale_toupper.cpp && (cd ../_build/cpp/;./locale_toupper.exe)
 https://en.cppreference.com/w/cpp/locale/toupper
 */
 #include <iostream>

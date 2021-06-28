@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/preprocessor_replace.exe ./c/preprocessor_replace.c && (cd ../_build/c/;./preprocessor_replace.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/preprocessor_replace.exe ./c/preprocessor_replace.c && (cd ../_build/c/;./preprocessor_replace.exe)
 https://en.cppreference.com/w/c/preprocessor/replace
 */
 #include <stdio.h>

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_multibyte_char32_t.exe ./c/string_multibyte_char32_t.c && (cd ../_build/c/;./string_multibyte_char32_t.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_multibyte_char32_t.exe ./c/string_multibyte_char32_t.c && (cd ../_build/c/;./string_multibyte_char32_t.exe)
 https://en.cppreference.com/w/c/string/multibyte/char32_t
 */
 #include <uchar.h>

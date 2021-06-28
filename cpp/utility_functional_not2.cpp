@@ -1,5 +1,6 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/utility_functional_not2.exe ./cpp/utility_functional_not2.cpp && (cd ../_build/cpp/;./utility_functional_not2.exe)
+Not c++20
+g++ --std=c++17 -pthread -o ../_build/cpp/utility_functional_not2.exe ./cpp/utility_functional_not2.cpp && (cd ../_build/cpp/;./utility_functional_not2.exe)
 https://en.cppreference.com/w/cpp/utility/functional/not2
 */
 #include <algorithm>

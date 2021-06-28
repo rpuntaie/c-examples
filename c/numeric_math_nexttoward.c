@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_nexttoward.exe ./c/numeric_math_nexttoward.c && (cd ../_build/c/;./numeric_math_nexttoward.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_nexttoward.exe ./c/numeric_math_nexttoward.c && (cd ../_build/c/;./numeric_math_nexttoward.exe)
 https://en.cppreference.com/w/c/numeric/math/nexttoward
 */
 #include <math.h>

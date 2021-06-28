@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_isprint.exe ./c/string_byte_isprint.c && (cd ../_build/c/;./string_byte_isprint.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_isprint.exe ./c/string_byte_isprint.c && (cd ../_build/c/;./string_byte_isprint.exe)
 https://en.cppreference.com/w/c/string/byte/isprint
 */
 #include <stdio.h>

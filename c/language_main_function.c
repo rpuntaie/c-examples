@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_main_function.exe ./c/language_main_function.c && (cd ../_build/c/;./language_main_function.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_main_function.exe ./c/language_main_function.c && (cd ../_build/c/;./language_main_function.exe)
 https://en.cppreference.com/w/c/language/main_function
 */
 #include <stdio.h>

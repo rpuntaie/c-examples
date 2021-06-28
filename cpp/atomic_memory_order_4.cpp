@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/atomic_memory_order_4.exe ./cpp/atomic_memory_order_4.cpp && (cd ../_build/cpp/;./atomic_memory_order_4.exe)
+g++ --std=c++20 -latomic -pthread -o ../_build/cpp/atomic_memory_order_4.exe ./cpp/atomic_memory_order_4.cpp && (cd ../_build/cpp/;./atomic_memory_order_4.exe)
 https://en.cppreference.com/w/cpp/atomic/memory_order
 */
 #include <thread>

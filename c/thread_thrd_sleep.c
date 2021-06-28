@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/thread_thrd_sleep.exe ./c/thread_thrd_sleep.c && (cd ../_build/c/;./thread_thrd_sleep.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/thread_thrd_sleep.exe ./c/thread_thrd_sleep.c && (cd ../_build/c/;./thread_thrd_sleep.exe)
 https://en.cppreference.com/w/c/thread/thrd_sleep
 */
 #include <threads.h>

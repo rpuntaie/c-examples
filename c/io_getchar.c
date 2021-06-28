@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/io_getchar.exe ./c/io_getchar.c && (cd ../_build/c/;./io_getchar.exe)
+gcc -std=c11 -lc -lm -pthread -o ../_build/c/io_getchar.exe ./c/io_getchar.c
 https://en.cppreference.com/w/c/io/getchar
 */
 #include <stdio.h>

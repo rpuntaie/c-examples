@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_wide_iswcntrl.exe ./c/string_wide_iswcntrl.c && (cd ../_build/c/;./string_wide_iswcntrl.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_wide_iswcntrl.exe ./c/string_wide_iswcntrl.c && (cd ../_build/c/;./string_wide_iswcntrl.exe)
 https://en.cppreference.com/w/c/string/wide/iswcntrl
 */
 #include <stdio.h>

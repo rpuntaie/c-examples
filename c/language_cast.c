@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_cast.exe ./c/language_cast.c && (cd ../_build/c/;./language_cast.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_cast.exe ./c/language_cast.c && (cd ../_build/c/;./language_cast.exe)
 https://en.cppreference.com/w/c/language/cast
 */
 #include <stdio.h>

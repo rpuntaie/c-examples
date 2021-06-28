@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_operator_member_access.exe ./c/language_operator_member_access.c && (cd ../_build/c/;./language_operator_member_access.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_operator_member_access.exe ./c/language_operator_member_access.c && (cd ../_build/c/;./language_operator_member_access.exe)
 https://en.cppreference.com/w/c/language/operator_member_access
 */
 #include <stdio.h>

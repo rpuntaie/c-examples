@@ -16,6 +16,7 @@ Needs:
 
 """
 
+import re
 import os
 import shlex
 from numpy import base_repr
@@ -71,8 +72,8 @@ def fileexamples(filename,orgpath):
     if not os.path.exists(srcname):
       smpl = doextract(fll,lineidx)
       smpl = smpl.encode().replace(b'\xc2\xa0',b'\x20').decode()
-      if 'main' in smpl:
-        cmplr = is_c and 'gcc -std=c99 -pthread' or 'g++ --std=c++20 -pthread'
+      if ' main(' in smpl or ' main (' in smpl:
+        cmplr = is_c and 'gcc -std=c11 -lc -lm -pthread' or 'g++ --std=c++20 -pthread'
         exe = '(cd ../_build'+ccpp+';./'+os.path.basename(exename)+')'
         fsmpl = "/*\n{} -o {} {} && {}\n{}\n*/\n{}\n".format(
           cmplr,exename,srcname,exe,'https://'+encpp+'/'+orgpath,smpl)

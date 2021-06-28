@@ -5,6 +5,7 @@ https://en.cppreference.com/w/cpp/memory/uninitialized_default_construct_n
 #include <iostream>
 #include <memory>
 #include <string>
+#include <cstring>
 int main()
 {
     struct S { std::string m{ "Default value" }; };

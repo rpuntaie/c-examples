@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_wide_iswdigit.exe ./c/string_wide_iswdigit.c && (cd ../_build/c/;./string_wide_iswdigit.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_wide_iswdigit.exe ./c/string_wide_iswdigit.c && (cd ../_build/c/;./string_wide_iswdigit.exe)
 https://en.cppreference.com/w/c/string/wide/iswdigit
 */
 #include <stdio.h>

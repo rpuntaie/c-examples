@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/feature_test.exe ./cpp/feature_test.cpp && (cd ../_build/cpp/;./feature_test.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/feature_test.exe ./cpp/feature_test.cpp && (cd ../_build/cpp/;./feature_test.exe)
 https://en.cppreference.com/w/cpp/feature_test
 */
 #ifdef __has_include                           // Check if __has_include is present

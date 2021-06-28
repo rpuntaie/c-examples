@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_cos.exe ./c/numeric_math_cos.c && (cd ../_build/c/;./numeric_math_cos.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_cos.exe ./c/numeric_math_cos.c && (cd ../_build/c/;./numeric_math_cos.exe)
 https://en.cppreference.com/w/c/numeric/math/cos
 */
 #include <stdio.h>

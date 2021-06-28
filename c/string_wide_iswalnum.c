@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_wide_iswalnum.exe ./c/string_wide_iswalnum.c && (cd ../_build/c/;./string_wide_iswalnum.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_wide_iswalnum.exe ./c/string_wide_iswalnum.c && (cd ../_build/c/;./string_wide_iswalnum.exe)
 https://en.cppreference.com/w/c/string/wide/iswalnum
 */
 #include <stdio.h>

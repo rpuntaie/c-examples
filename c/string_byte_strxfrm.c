@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_strxfrm.exe ./c/string_byte_strxfrm.c && (cd ../_build/c/;./string_byte_strxfrm.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_strxfrm.exe ./c/string_byte_strxfrm.c && (cd ../_build/c/;./string_byte_strxfrm.exe)
 https://en.cppreference.com/w/c/string/byte/strxfrm
 */
 #include <stdio.h>

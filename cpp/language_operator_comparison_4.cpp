@@ -4,8 +4,8 @@ https://en.cppreference.com/w/cpp/language/operator_comparison
 */
 void f(char * p)
 {
-  if (p > 0) { /*...*/ } // Error with N3624, compiled before N3624
-  if (p > nullptr) { /*...*/ } // Error with N3624, compiled before N3624
+  // if (p > 0) { /*...*/ } // Error with N3624, compiled before N3624
+  // if (p > nullptr) { /*...*/ } // Error with N3624, compiled before N3624
 }
 int main( ){ }
 

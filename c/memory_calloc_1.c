@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/memory_calloc_1.exe ./c/memory_calloc_1.c && (cd ../_build/c/;./memory_calloc_1.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/memory_calloc_1.exe ./c/memory_calloc_1.c && (cd ../_build/c/;./memory_calloc_1.exe)
 https://en.cppreference.com/w/c/memory/calloc
 */
 #include <stdio.h>

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_initialization.exe ./c/language_initialization.c && (cd ../_build/c/;./language_initialization.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_initialization.exe ./c/language_initialization.c && (cd ../_build/c/;./language_initialization.exe)
 https://en.cppreference.com/w/c/language/initialization
 */
 #include <stdlib.h>

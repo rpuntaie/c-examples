@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_fenv_FE_DFL_ENV.exe ./c/numeric_fenv_FE_DFL_ENV.c && (cd ../_build/c/;./numeric_fenv_FE_DFL_ENV.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_fenv_FE_DFL_ENV.exe ./c/numeric_fenv_FE_DFL_ENV.c && (cd ../_build/c/;./numeric_fenv_FE_DFL_ENV.exe)
 https://en.cppreference.com/w/c/numeric/fenv/FE_DFL_ENV
 */
 #include <stdio.h>

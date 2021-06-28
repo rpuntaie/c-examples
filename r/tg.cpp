@@ -1,5 +1,5 @@
 /*
-g++ -std=c++20 -c r/tg.cpp
+g++ -std=c++20 -o ../_build/r/tg.o -c r/tg.cpp
 */
 
 #include <compare>

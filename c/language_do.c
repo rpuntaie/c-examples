@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_do.exe ./c/language_do.c && (cd ../_build/c/;./language_do.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_do.exe ./c/language_do.c && (cd ../_build/c/;./language_do.exe)
 https://en.cppreference.com/w/c/language/do
 */
 #include <stdio.h>

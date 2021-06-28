@@ -5,7 +5,7 @@ https://en.cppreference.com/w/cpp/io/c/fwrite
 #include <cstdio>
 #include <vector>
 #include <array>
-int main ()
+int main()
 {
     // write buffer to file
     if(std::FILE* f1 = std::fopen("file.bin", "wb")) {

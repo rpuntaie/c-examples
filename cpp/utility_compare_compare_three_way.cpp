@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/utility_compare_compare_three_way.exe ./cpp/utility_compare_compare_three_way.cpp && (cd ../_build/cpp/;./utility_compare_compare_three_way.exe)
+# g++ --std=c++23 -pthread -o ../_build/cpp/utility_compare_compare_three_way.exe ./cpp/utility_compare_compare_three_way.cpp && (cd ../_build/cpp/;./utility_compare_compare_three_way.exe)
 https://en.cppreference.com/w/cpp/utility/compare/compare_three_way
 */
 #include <iostream>

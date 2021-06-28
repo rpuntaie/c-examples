@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/chrono_asctime.exe ./c/chrono_asctime.c && (cd ../_build/c/;./chrono_asctime.exe)
+gcc -std=c17 -lc -lc -lm -pthread -o ../_build/c/chrono_asctime.exe ./c/chrono_asctime.c && (cd ../_build/c/;./chrono_asctime.exe)
 https://en.cppreference.com/w/c/chrono/asctime
 */
 #define __STDC_WANT_LIB_EXT1__ 1

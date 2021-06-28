@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/experimental_unique_resource_make_unique_resource_checked.exe ./cpp/experimental_unique_resource_make_unique_resource_checked.cpp && (cd ../_build/cpp/;./experimental_unique_resource_make_unique_resource_checked.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/experimental_unique_resource_make_unique_resource_checked.exe ./cpp/experimental_unique_resource_make_unique_resource_checked.cpp && (cd ../_build/cpp/;./experimental_unique_resource_make_unique_resource_checked.exe)
 https://en.cppreference.com/w/cpp/experimental/unique_resource/make_unique_resource_checked
 */
 #include <cstdio>

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_strcat.exe ./c/string_byte_strcat.c && (cd ../_build/c/;./string_byte_strcat.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_strcat.exe ./c/string_byte_strcat.c && (cd ../_build/c/;./string_byte_strcat.exe)
 https://en.cppreference.com/w/c/string/byte/strcat
 */
 #define __STDC_WANT_LIB_EXT1__ 1

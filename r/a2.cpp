@@ -14,7 +14,7 @@ struct myclass {           // function object type:
   void operator() (int i) {std::cout << ' ' << i;}
 } myobject;
 
-int main () {
+int main() {
   std::vector<int> myvector;
   myvector.push_back(10);
   myvector.push_back(20);

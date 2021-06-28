@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_strndup.exe ./c/string_byte_strndup.c && (cd ../_build/c/;./string_byte_strndup.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_strndup.exe ./c/string_byte_strndup.c #segfault: && (cd ../_build/c/;./string_byte_strndup.exe)
 https://en.cppreference.com/w/c/string/byte/strndup
 */
 #include <string.h>

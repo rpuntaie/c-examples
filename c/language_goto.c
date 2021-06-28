@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_goto.exe ./c/language_goto.c && (cd ../_build/c/;./language_goto.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_goto.exe ./c/language_goto.c && (cd ../_build/c/;./language_goto.exe)
 https://en.cppreference.com/w/c/language/goto
 */
 #include <stdio.h>

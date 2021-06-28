@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language__Alignof.exe ./c/language__Alignof.c && (cd ../_build/c/;./language__Alignof.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language__Alignof.exe ./c/language__Alignof.c && (cd ../_build/c/;./language__Alignof.exe)
 https://en.cppreference.com/w/c/language/_Alignof
 */
 #include <stdio.h>

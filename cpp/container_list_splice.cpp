@@ -11,7 +11,7 @@ std::ostream& operator<<(std::ostream& ostr, const std::list<int>& list)
     }
     return ostr;
 }
-int main ()
+int main()
 {
     std::list<int> list1 = { 1, 2, 3, 4, 5 };
     std::list<int> list2 = { 10, 20, 30, 40, 50 };

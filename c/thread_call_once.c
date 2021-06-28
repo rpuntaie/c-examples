@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/thread_call_once.exe ./c/thread_call_once.c && (cd ../_build/c/;./thread_call_once.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/thread_call_once.exe ./c/thread_call_once.c && (cd ../_build/c/;./thread_call_once.exe)
 https://en.cppreference.com/w/c/thread/call_once
 */
 #include <stdio.h>

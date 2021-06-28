@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_bit_field.exe ./c/language_bit_field.c && (cd ../_build/c/;./language_bit_field.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_bit_field.exe ./c/language_bit_field.c && (cd ../_build/c/;./language_bit_field.exe)
 https://en.cppreference.com/w/c/language/bit_field
 */
 #include <stdio.h>

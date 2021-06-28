@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_floor.exe ./c/numeric_math_floor.c && (cd ../_build/c/;./numeric_math_floor.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_floor.exe ./c/numeric_math_floor.c && (cd ../_build/c/;./numeric_math_floor.exe)
 https://en.cppreference.com/w/c/numeric/math/floor
 */
 #include <math.h>

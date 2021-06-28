@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_round_1.exe ./c/numeric_math_round_1.c && (cd ../_build/c/;./numeric_math_round_1.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_round_1.exe ./c/numeric_math_round_1.c && (cd ../_build/c/;./numeric_math_round_1.exe)
 https://en.cppreference.com/w/c/numeric/math/round
 */
 #include <stdio.h>

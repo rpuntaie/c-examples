@@ -3,6 +3,7 @@ g++ --std=c++20 -pthread -o ../_build/cpp/types_numeric_limits_max_exponent10.ex
 https://en.cppreference.com/w/cpp/types/numeric_limits/max_exponent10
 */
 #include <iostream>
+#include <numeric>
 int main()
 {
     std::cout << "max() = " << std::numeric_limits<float>::max() << '\n'

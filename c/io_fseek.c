@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/io_fseek.exe ./c/io_fseek.c && (cd ../_build/c/;./io_fseek.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/io_fseek.exe ./c/io_fseek.c && (cd ../_build/c/;./io_fseek.exe)
 https://en.cppreference.com/w/c/io/fseek
 */
 #include <stdio.h>

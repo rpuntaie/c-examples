@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_erf.exe ./c/numeric_math_erf.c && (cd ../_build/c/;./numeric_math_erf.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_erf.exe ./c/numeric_math_erf.c && (cd ../_build/c/;./numeric_math_erf.exe)
 https://en.cppreference.com/w/c/numeric/math/erf
 */
 #include <stdio.h>

@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/experimental_sample.exe ./cpp/experimental_sample.cpp && (cd ../_build/cpp/;./experimental_sample.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/experimental_sample.exe ./cpp/experimental_sample.cpp && (cd ../_build/cpp/;./experimental_sample.exe)
 https://en.cppreference.com/w/cpp/experimental/sample
 */
 #include <iostream>

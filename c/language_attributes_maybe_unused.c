@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_attributes_maybe_unused.exe ./c/language_attributes_maybe_unused.c && (cd ../_build/c/;./language_attributes_maybe_unused.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_attributes_maybe_unused.exe ./c/language_attributes_maybe_unused.c && (cd ../_build/c/;./language_attributes_maybe_unused.exe)
 https://en.cppreference.com/w/c/language/attributes/maybe_unused
 */
 #include <assert.h>

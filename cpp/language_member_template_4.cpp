@@ -4,7 +4,7 @@ https://en.cppreference.com/w/cpp/language/member_template
 */
 template<typename T>
 struct A {
-    void f(int); // non-template member
+    void f(int){}; // non-template member
     template<typename T2>
     void f(T2); // member template
 };

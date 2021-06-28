@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_while.exe ./c/language_while.c && (cd ../_build/c/;./language_while.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_while.exe ./c/language_while.c && (cd ../_build/c/;./language_while.exe)
 https://en.cppreference.com/w/c/language/while
 */
 #include <stdio.h>

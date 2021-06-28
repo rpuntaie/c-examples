@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/io_fwrite.exe ./c/io_fwrite.c && (cd ../_build/c/;./io_fwrite.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/io_fwrite.exe ./c/io_fwrite.c && (cd ../_build/c/;./io_fwrite.exe)
 https://en.cppreference.com/w/c/io/fwrite
 */
 #include <stdio.h>

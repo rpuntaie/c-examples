@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_hypot.exe ./c/numeric_math_hypot.c && (cd ../_build/c/;./numeric_math_hypot.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_hypot.exe ./c/numeric_math_hypot.c && (cd ../_build/c/;./numeric_math_hypot.exe)
 https://en.cppreference.com/w/c/numeric/math/hypot
 */
 #include <stdio.h>

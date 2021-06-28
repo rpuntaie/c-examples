@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/thread_condition_variable_wait_for.exe ./cpp/thread_condition_variable_wait_for.cpp && (cd ../_build/cpp/;./thread_condition_variable_wait_for.exe)
+g++ --std=c++20 -latomic -pthread -o ../_build/cpp/thread_condition_variable_wait_for.exe ./cpp/thread_condition_variable_wait_for.cpp && (cd ../_build/cpp/;./thread_condition_variable_wait_for.exe)
 https://en.cppreference.com/w/cpp/thread/condition_variable/wait_for
 */
 #include <iostream>

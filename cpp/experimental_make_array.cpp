@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/experimental_make_array.exe ./cpp/experimental_make_array.cpp && (cd ../_build/cpp/;./experimental_make_array.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/experimental_make_array.exe ./cpp/experimental_make_array.cpp && (cd ../_build/cpp/;./experimental_make_array.exe)
 https://en.cppreference.com/w/cpp/experimental/make_array
 */
 #include <experimental/array>

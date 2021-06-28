@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/program_EXIT_status.exe ./c/program_EXIT_status.c && (cd ../_build/c/;./program_EXIT_status.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/program_EXIT_status.exe ./c/program_EXIT_status.c && (cd ../_build/c/;./program_EXIT_status.exe) || true
 https://en.cppreference.com/w/c/program/EXIT_status
 */
 #include <stdio.h>

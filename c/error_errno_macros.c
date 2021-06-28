@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/error_errno_macros.exe ./c/error_errno_macros.c && (cd ../_build/c/;./error_errno_macros.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/error_errno_macros.exe ./c/error_errno_macros.c && (cd ../_build/c/;./error_errno_macros.exe)
 https://en.cppreference.com/w/c/error/errno_macros
 */
 #include <stdio.h>

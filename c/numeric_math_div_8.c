@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_div_8.exe ./c/numeric_math_div_8.c && (cd ../_build/c/;./numeric_math_div_8.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_div_8.exe ./c/numeric_math_div_8.c && (cd ../_build/c/;./numeric_math_div_8.exe)
 https://en.cppreference.com/w/c/numeric/math/div
 */
 #include <stdio.h>

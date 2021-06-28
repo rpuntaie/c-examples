@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/experimental_shuffle.exe ./cpp/experimental_shuffle.cpp && (cd ../_build/cpp/;./experimental_shuffle.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/experimental_shuffle.exe ./cpp/experimental_shuffle.cpp && (cd ../_build/cpp/;./experimental_shuffle.exe)
 https://en.cppreference.com/w/cpp/experimental/shuffle
 */
 #include <experimental/algorithm>

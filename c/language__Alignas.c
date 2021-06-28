@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language__Alignas.exe ./c/language__Alignas.c && (cd ../_build/c/;./language__Alignas.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language__Alignas.exe ./c/language__Alignas.c && (cd ../_build/c/;./language__Alignas.exe)
 https://en.cppreference.com/w/c/language/_Alignas
 */
 #include <stdalign.h>

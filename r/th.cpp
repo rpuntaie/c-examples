@@ -1,5 +1,5 @@
 /*
-clang -std=c++20 -c r/th.cpp || true
+clang -std=c++20 -o ../_build/r/th.o -c r/th.cpp || true
 # g++ -std=c++20 -c r/th.cpp # https://www.mail-archive.com/gcc-bugs@gcc.gnu.org/msg681237.html
 */
 

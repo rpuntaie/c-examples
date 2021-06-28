@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/program_signal.exe ./c/program_signal.c && (cd ../_build/c/;./program_signal.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/program_signal.exe ./c/program_signal.c && (cd ../_build/c/;./program_signal.exe)
 https://en.cppreference.com/w/c/program/signal
 */
 #include <signal.h>

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_pow.exe ./c/numeric_math_pow.c && (cd ../_build/c/;./numeric_math_pow.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_pow.exe ./c/numeric_math_pow.c && (cd ../_build/c/;./numeric_math_pow.exe)
 https://en.cppreference.com/w/c/numeric/math/pow
 */
 #include <stdio.h>

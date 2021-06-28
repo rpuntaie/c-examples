@@ -1,5 +1,5 @@
 /*
-g++ -std=c++20 -c r/td.cpp
+g++ -std=c++20 -o ../_build/r/td.o -c r/td.cpp
 */
 
 #include <concepts>

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/io_fwprintf.exe ./c/io_fwprintf.c && (cd ../_build/c/;./io_fwprintf.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/io_fwprintf.exe ./c/io_fwprintf.c && (cd ../_build/c/;./io_fwprintf.exe)
 https://en.cppreference.com/w/c/io/fwprintf
 */
 #include <locale.h>

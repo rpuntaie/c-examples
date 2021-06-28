@@ -16,8 +16,8 @@ int main()
     typedef std::pair<int, double> elem_t;
     std::vector<elem_t> v(10);
     std::cout << v[0] << '\n'; // OK, ordinary lookup finds ::operator<<
-    std::copy(v.begin(), v.end(),
-              std::ostream_iterator<elem_t>(std::cout, " ")); // Error: both ordinary 
+    //// std::copy(v.begin(), v.end(),
+    ////          std::ostream_iterator<elem_t>(std::cout, " ")); // Error: both ordinary 
     // lookup from the point of definition of std::ostream_iterator and ADL will 
     // only consider the std namespace, and will find many overloads of
     // std::operator<<, so the lookup will be done. Overload resolution will then

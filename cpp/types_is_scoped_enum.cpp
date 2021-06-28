@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/types_is_scoped_enum.exe ./cpp/types_is_scoped_enum.cpp && (cd ../_build/cpp/;./types_is_scoped_enum.exe)
+#C23 g++ --std=c++20 -pthread -o ../_build/cpp/types_is_scoped_enum.exe ./cpp/types_is_scoped_enum.cpp && (cd ../_build/cpp/;./types_is_scoped_enum.exe)
 https://en.cppreference.com/w/cpp/types/is_scoped_enum
 */
 #include <iostream>

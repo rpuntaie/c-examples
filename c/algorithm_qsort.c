@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/algorithm_qsort.exe ./c/algorithm_qsort.c && (cd ../_build/c/;./algorithm_qsort.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/algorithm_qsort.exe ./c/algorithm_qsort.c && (cd ../_build/c/;./algorithm_qsort.exe)
 https://en.cppreference.com/w/c/algorithm/qsort
 */
 #include <stdio.h>

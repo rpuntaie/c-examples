@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/program_longjmp.exe ./c/program_longjmp.c && (cd ../_build/c/;./program_longjmp.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/program_longjmp.exe ./c/program_longjmp.c && (cd ../_build/c/;./program_longjmp.exe)
 https://en.cppreference.com/w/c/program/longjmp
 */
 #include <stdio.h>

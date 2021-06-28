@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/io_tmpnam.exe ./c/io_tmpnam.c && (cd ../_build/c/;./io_tmpnam.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/io_tmpnam.exe ./c/io_tmpnam.c && (cd ../_build/c/;./io_tmpnam.exe)
 https://en.cppreference.com/w/c/io/tmpnam
 */
 #include <stdio.h>

@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/atomic_atomic_flag_test_and_set.exe ./cpp/atomic_atomic_flag_test_and_set.cpp && (cd ../_build/cpp/;./atomic_atomic_flag_test_and_set.exe)
+g++ --std=c++20 -latomic -pthread -o ../_build/cpp/atomic_atomic_flag_test_and_set.exe ./cpp/atomic_atomic_flag_test_and_set.cpp && (cd ../_build/cpp/;./atomic_atomic_flag_test_and_set.exe)
 https://en.cppreference.com/w/cpp/atomic/atomic_flag_test_and_set
 */
 #include <thread>

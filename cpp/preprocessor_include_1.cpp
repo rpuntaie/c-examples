@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/preprocessor_include_1.exe ./cpp/preprocessor_include_1.cpp && (cd ../_build/cpp/;./preprocessor_include_1.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/preprocessor_include_1.exe ./cpp/preprocessor_include_1.cpp && (cd ../_build/cpp/;./preprocessor_include_1.exe)
 https://en.cppreference.com/w/cpp/preprocessor/include
 */
 #if __has_include(<optional>)

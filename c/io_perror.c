@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/io_perror.exe ./c/io_perror.c && (cd ../_build/c/;./io_perror.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/io_perror.exe ./c/io_perror.c && (cd ../_build/c/;./io_perror.exe)
 https://en.cppreference.com/w/c/io/perror
 */
 #include <stdio.h>

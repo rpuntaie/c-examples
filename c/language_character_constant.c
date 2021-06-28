@@ -1,11 +1,11 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_character_constant.exe ./c/language_character_constant.c && (cd ../_build/c/;./language_character_constant.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_character_constant.exe ./c/language_character_constant.c && (cd ../_build/c/;./language_character_constant.exe)
 https://en.cppreference.com/w/c/language/character_constant
 */
 #include <stddef.h>
 #include <stdio.h>
 #include <uchar.h>
-int main (void)
+int main(void)
 {
     printf("constant value     \n");
     printf("-------- ----------\n");

@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/string_wide_iswprint.exe ./cpp/string_wide_iswprint.cpp && (cd ../_build/cpp/;./string_wide_iswprint.exe)
+g++ --std=c++17 -pthread -o ../_build/cpp/string_wide_iswprint.exe ./cpp/string_wide_iswprint.cpp && (cd ../_build/cpp/;./string_wide_iswprint.exe)
 https://en.cppreference.com/w/cpp/string/wide/iswprint
 */
 #include <iostream>

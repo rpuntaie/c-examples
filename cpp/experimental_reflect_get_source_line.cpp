@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/experimental_reflect_get_source_line.exe ./cpp/experimental_reflect_get_source_line.cpp && (cd ../_build/cpp/;./experimental_reflect_get_source_line.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/experimental_reflect_get_source_line.exe ./cpp/experimental_reflect_get_source_line.cpp && (cd ../_build/cpp/;./experimental_reflect_get_source_line.exe)
 https://en.cppreference.com/w/cpp/experimental/reflect/get_source_line
 */
 #include<experimental/reflect>

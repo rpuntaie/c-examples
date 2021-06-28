@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/experimental_randint.exe ./cpp/experimental_randint.cpp && (cd ../_build/cpp/;./experimental_randint.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/experimental_randint.exe ./cpp/experimental_randint.cpp && (cd ../_build/cpp/;./experimental_randint.exe)
 https://en.cppreference.com/w/cpp/experimental/randint
 */
 #include <iostream>

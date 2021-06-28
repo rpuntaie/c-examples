@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_complex_clog.exe ./c/numeric_complex_clog.c && (cd ../_build/c/;./numeric_complex_clog.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_complex_clog.exe ./c/numeric_complex_clog.c && (cd ../_build/c/;./numeric_complex_clog.exe)
 https://en.cppreference.com/w/c/numeric/complex/clog
 */
 #include <stdio.h>

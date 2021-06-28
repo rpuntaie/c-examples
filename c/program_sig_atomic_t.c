@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/program_sig_atomic_t.exe ./c/program_sig_atomic_t.c && (cd ../_build/c/;./program_sig_atomic_t.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/program_sig_atomic_t.exe ./c/program_sig_atomic_t.c && (cd ../_build/c/;./program_sig_atomic_t.exe)
 https://en.cppreference.com/w/c/program/sig_atomic_t
 */
 #include <signal.h>

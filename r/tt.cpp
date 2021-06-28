@@ -1,5 +1,5 @@
 /*
-g++ -std=c++20 -c r/tt.cpp
+g++ -std=c++20 -o ../_build/r/tt.o -c r/tt.cpp
 */
 
 #include <type_traits>

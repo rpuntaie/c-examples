@@ -1,5 +1,5 @@
 /*
-g++ -std=c++20 -c r/tn.cpp
+g++ -std=c++20 -o ../_build/r/tn.o -c r/tn.cpp
 */
 
 int f(bool b){

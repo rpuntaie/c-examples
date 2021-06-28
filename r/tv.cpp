@@ -1,5 +1,5 @@
 /*
-g++ -std=c++20 -c r/tv.cpp
+g++ -std=c++20 -o ../_build/r/tv.o -c r/tv.cpp
 */
 
 #include<memory>

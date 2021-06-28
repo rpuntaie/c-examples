@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_memccpy_1.exe ./c/string_byte_memccpy_1.c && (cd ../_build/c/;./string_byte_memccpy_1.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_memccpy_1.exe ./c/string_byte_memccpy_1.c #C23 && (cd ../_build/c/;./string_byte_memccpy_1.exe)
 https://en.cppreference.com/w/c/string/byte/memccpy
 */
 #include <ctype.h>

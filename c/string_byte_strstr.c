@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_strstr.exe ./c/string_byte_strstr.c && (cd ../_build/c/;./string_byte_strstr.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_strstr.exe ./c/string_byte_strstr.c && (cd ../_build/c/;./string_byte_strstr.exe)
 https://en.cppreference.com/w/c/string/byte/strstr
 */
 #include <string.h>

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_wide_wmemcpy.exe ./c/string_wide_wmemcpy.c && (cd ../_build/c/;./string_wide_wmemcpy.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_wide_wmemcpy.exe ./c/string_wide_wmemcpy.c && (cd ../_build/c/;./string_wide_wmemcpy.exe)
 https://en.cppreference.com/w/c/string/wide/wmemcpy
 */
 #include <stdio.h>

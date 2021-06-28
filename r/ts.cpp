@@ -1,6 +1,6 @@
 /*
-clang -std=c++20 -c r/ts.cpp
-// g++ -std=c++20 -c r/ts.cpp
+clang -std=c++20 -o ../_build/r/ts.o -c r/ts.cpp
+// g++ -std=c++20 -o ../_build/r/ts.o -c r/ts.cpp
 */
 
 #include <type_traits>

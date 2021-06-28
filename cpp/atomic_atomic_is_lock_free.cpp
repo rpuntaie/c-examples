@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/atomic_atomic_is_lock_free.exe ./cpp/atomic_atomic_is_lock_free.cpp && (cd ../_build/cpp/;./atomic_atomic_is_lock_free.exe)
+g++ --std=c++20 -latomic -pthread -o ../_build/cpp/atomic_atomic_is_lock_free.exe ./cpp/atomic_atomic_is_lock_free.cpp && (cd ../_build/cpp/;./atomic_atomic_is_lock_free.exe)
 https://en.cppreference.com/w/cpp/atomic/atomic/is_lock_free
 */
 #include <iostream>

@@ -2,8 +2,6 @@
 g++ -std=c++20 -o ../_build/r/cg.exe r/cg.cpp && (cd ../_build/r;./cg.exe)
 */
 #include <iostream>
-//#include <string>
-//#include <format>
 
 using namespace std;
 enum class Color { red, green, blue };

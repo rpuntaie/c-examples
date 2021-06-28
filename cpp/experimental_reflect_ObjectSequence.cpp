@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/experimental_reflect_ObjectSequence.exe ./cpp/experimental_reflect_ObjectSequence.cpp && (cd ../_build/cpp/;./experimental_reflect_ObjectSequence.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/experimental_reflect_ObjectSequence.exe ./cpp/experimental_reflect_ObjectSequence.cpp && (cd ../_build/cpp/;./experimental_reflect_ObjectSequence.exe)
 https://en.cppreference.com/w/cpp/experimental/reflect/ObjectSequence
 */
 #include<type_traits>

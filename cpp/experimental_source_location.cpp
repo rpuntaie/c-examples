@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/experimental_source_location.exe ./cpp/experimental_source_location.cpp && (cd ../_build/cpp/;./experimental_source_location.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/experimental_source_location.exe ./cpp/experimental_source_location.cpp && (cd ../_build/cpp/;./experimental_source_location.exe)
 https://en.cppreference.com/w/cpp/experimental/source_location
 */
 #include <iostream>

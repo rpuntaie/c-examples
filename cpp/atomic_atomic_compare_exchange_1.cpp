@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/atomic_atomic_compare_exchange_1.exe ./cpp/atomic_atomic_compare_exchange_1.cpp && (cd ../_build/cpp/;./atomic_atomic_compare_exchange_1.exe)
+g++ --std=c++20 -latomic -pthread -o ../_build/cpp/atomic_atomic_compare_exchange_1.exe ./cpp/atomic_atomic_compare_exchange_1.cpp && (cd ../_build/cpp/;./atomic_atomic_compare_exchange_1.exe)
 https://en.cppreference.com/w/cpp/atomic/atomic/compare_exchange
 */
 #include <atomic>

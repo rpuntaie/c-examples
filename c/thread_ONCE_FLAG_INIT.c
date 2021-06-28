@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/thread_ONCE_FLAG_INIT.exe ./c/thread_ONCE_FLAG_INIT.c && (cd ../_build/c/;./thread_ONCE_FLAG_INIT.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/thread_ONCE_FLAG_INIT.exe ./c/thread_ONCE_FLAG_INIT.c && (cd ../_build/c/;./thread_ONCE_FLAG_INIT.exe)
 https://en.cppreference.com/w/c/thread/ONCE_FLAG_INIT
 */
 #include <stdio.h>

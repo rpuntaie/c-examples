@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/experimental_list_erase.exe ./cpp/experimental_list_erase.cpp && (cd ../_build/cpp/;./experimental_list_erase.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/experimental_list_erase.exe ./cpp/experimental_list_erase.cpp && (cd ../_build/cpp/;./experimental_list_erase.exe)
 https://en.cppreference.com/w/cpp/experimental/list/erase
 */
 #include <experimental/list>

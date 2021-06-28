@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/chrono_timespec_get.exe ./c/chrono_timespec_get.c && (cd ../_build/c/;./chrono_timespec_get.exe)
+gcc -std=c11 -lc -lm -pthread -o ../_build/c/chrono_timespec_get.exe ./c/chrono_timespec_get.c && (cd ../_build/c/;./chrono_timespec_get.exe)
 https://en.cppreference.com/w/c/chrono/timespec_get
 */
 #include <stdio.h>

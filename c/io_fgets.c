@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/io_fgets.exe ./c/io_fgets.c && (cd ../_build/c/;./io_fgets.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/io_fgets.exe ./c/io_fgets.c && (cd ../_build/c/;./io_fgets.exe)
 https://en.cppreference.com/w/c/io/fgets
 */
 #include <stdio.h>

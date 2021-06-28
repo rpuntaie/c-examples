@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_strlen.exe ./c/string_byte_strlen.c && (cd ../_build/c/;./string_byte_strlen.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_strlen.exe ./c/string_byte_strlen.c && (cd ../_build/c/;./string_byte_strlen.exe)
 https://en.cppreference.com/w/c/string/byte/strlen
 */
 #define __STDC_WANT_LIB_EXT1__ 1

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/io_fread.exe ./c/io_fread.c && (cd ../_build/c/;./io_fread.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/io_fread.exe ./c/io_fread.c && (cd ../_build/c/;./io_fread.exe)
 https://en.cppreference.com/w/c/io/fread
 */
 #include <stdio.h>

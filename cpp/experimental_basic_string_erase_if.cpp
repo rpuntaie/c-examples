@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/experimental_basic_string_erase_if.exe ./cpp/experimental_basic_string_erase_if.cpp && (cd ../_build/cpp/;./experimental_basic_string_erase_if.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/experimental_basic_string_erase_if.exe ./cpp/experimental_basic_string_erase_if.cpp && (cd ../_build/cpp/;./experimental_basic_string_erase_if.exe)
 https://en.cppreference.com/w/cpp/experimental/basic_string/erase_if
 */
 #include <experimental/string>

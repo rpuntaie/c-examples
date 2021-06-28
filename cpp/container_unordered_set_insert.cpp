@@ -10,7 +10,7 @@ std::ostream& operator<< (std::ostream& os, std::unordered_set<int> const& s) {
     os << i << ' ';
   return os << "}\n";
 }
-int main ()
+int main()
 {
   std::unordered_set<int> nums = {2, 3, 4};
   std::cout << "Initially: " << nums;

@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/experimental_to_array.exe ./cpp/experimental_to_array.cpp && (cd ../_build/cpp/;./experimental_to_array.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/experimental_to_array.exe ./cpp/experimental_to_array.cpp && (cd ../_build/cpp/;./experimental_to_array.exe)
 https://en.cppreference.com/w/cpp/experimental/to_array
 */
 #include <cstdlib>

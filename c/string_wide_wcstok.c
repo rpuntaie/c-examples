@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_wide_wcstok.exe ./c/string_wide_wcstok.c && (cd ../_build/c/;./string_wide_wcstok.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_wide_wcstok.exe ./c/string_wide_wcstok.c && (cd ../_build/c/;./string_wide_wcstok.exe)
 https://en.cppreference.com/w/c/string/wide/wcstok
 */
 #include <wchar.h>

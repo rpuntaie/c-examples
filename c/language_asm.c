@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_asm.exe ./c/language_asm.c && (cd ../_build/c/;./language_asm.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_asm.exe ./c/language_asm.c && (cd ../_build/c/;./language_asm.exe) || true
 https://en.cppreference.com/w/c/language/asm
 */
 #include <stdio.h>

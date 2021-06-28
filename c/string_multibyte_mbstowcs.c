@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_multibyte_mbstowcs.exe ./c/string_multibyte_mbstowcs.c && (cd ../_build/c/;./string_multibyte_mbstowcs.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_multibyte_mbstowcs.exe ./c/string_multibyte_mbstowcs.c && (cd ../_build/c/;./string_multibyte_mbstowcs.exe)
 https://en.cppreference.com/w/c/string/multibyte/mbstowcs
 */
 #include <stdio.h>

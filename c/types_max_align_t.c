@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/types_max_align_t.exe ./c/types_max_align_t.c && (cd ../_build/c/;./types_max_align_t.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/types_max_align_t.exe ./c/types_max_align_t.c && (cd ../_build/c/;./types_max_align_t.exe)
 https://en.cppreference.com/w/c/types/max_align_t
 */
 #include <stdio.h>

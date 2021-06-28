@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/chrono_time.exe ./c/chrono_time.c && (cd ../_build/c/;./chrono_time.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/chrono_time.exe ./c/chrono_time.c && (cd ../_build/c/;./chrono_time.exe)
 https://en.cppreference.com/w/c/chrono/time
 */
 #include <stdio.h>

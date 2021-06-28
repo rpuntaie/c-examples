@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_strtof.exe ./c/string_byte_strtof.c && (cd ../_build/c/;./string_byte_strtof.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_strtof.exe ./c/string_byte_strtof.c && (cd ../_build/c/;./string_byte_strtof.exe)
 https://en.cppreference.com/w/c/string/byte/strtof
 */
 #include <stdio.h>

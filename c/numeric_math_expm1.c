@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_expm1.exe ./c/numeric_math_expm1.c && (cd ../_build/c/;./numeric_math_expm1.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_expm1.exe ./c/numeric_math_expm1.c && (cd ../_build/c/;./numeric_math_expm1.exe)
 https://en.cppreference.com/w/c/numeric/math/expm1
 */
 #include <stdio.h>

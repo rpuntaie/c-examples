@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_islessequal.exe ./c/numeric_math_islessequal.c && (cd ../_build/c/;./numeric_math_islessequal.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_islessequal.exe ./c/numeric_math_islessequal.c && (cd ../_build/c/;./numeric_math_islessequal.exe)
 https://en.cppreference.com/w/c/numeric/math/islessequal
 */
 #include <stdio.h>

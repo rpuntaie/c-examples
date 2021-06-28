@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_union.exe ./c/language_union.c && (cd ../_build/c/;./language_union.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_union.exe ./c/language_union.c && (cd ../_build/c/;./language_union.exe)
 https://en.cppreference.com/w/c/language/union
 */
 #include <stdio.h>

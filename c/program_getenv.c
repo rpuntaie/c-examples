@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/program_getenv.exe ./c/program_getenv.c && (cd ../_build/c/;./program_getenv.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/program_getenv.exe ./c/program_getenv.c && (cd ../_build/c/;./program_getenv.exe)
 https://en.cppreference.com/w/c/program/getenv
 */
 #include <stdio.h>

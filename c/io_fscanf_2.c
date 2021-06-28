@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/io_fscanf_2.exe ./c/io_fscanf_2.c && (cd ../_build/c/;./io_fscanf_2.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/io_fscanf_2.exe ./c/io_fscanf_2.c && (cd ../_build/c/;./io_fscanf_2.exe)
 https://en.cppreference.com/w/c/io/fscanf
 */
 #define __STDC_WANT_LIB_EXT1__ 1

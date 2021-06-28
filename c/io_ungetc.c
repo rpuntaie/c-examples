@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/io_ungetc.exe ./c/io_ungetc.c && (cd ../_build/c/;./io_ungetc.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/io_ungetc.exe ./c/io_ungetc.c && (cd ../_build/c/;./io_ungetc.exe)
 https://en.cppreference.com/w/c/io/ungetc
 */
 #include <ctype.h>

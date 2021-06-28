@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_isupper.exe ./c/string_byte_isupper.c && (cd ../_build/c/;./string_byte_isupper.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_isupper.exe ./c/string_byte_isupper.c && (cd ../_build/c/;./string_byte_isupper.exe)
 https://en.cppreference.com/w/c/string/byte/isupper
 */
 #include <stdio.h>

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/io_tmpfile.exe ./c/io_tmpfile.c && (cd ../_build/c/;./io_tmpfile.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/io_tmpfile.exe ./c/io_tmpfile.c && (cd ../_build/c/;./io_tmpfile.exe)
 https://en.cppreference.com/w/c/io/tmpfile
 */
 #define _POSIX_C_SOURCE 200112L

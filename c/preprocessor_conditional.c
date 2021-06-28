@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/preprocessor_conditional.exe ./c/preprocessor_conditional.c && (cd ../_build/c/;./preprocessor_conditional.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/preprocessor_conditional.exe ./c/preprocessor_conditional.c && (cd ../_build/c/;./preprocessor_conditional.exe)
 https://en.cppreference.com/w/c/preprocessor/conditional
 */
 #define ABCD 2

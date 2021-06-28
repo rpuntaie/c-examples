@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/io_c_remove.exe ./cpp/io_c_remove.cpp && (cd ../_build/cpp/;./io_c_remove.exe)
+g++ --std=c++20 -pthread -o ../_build/cpp/io_c_remove.exe ./cpp/io_c_remove.cpp && (cd ../_build/cpp/;./io_c_remove.exe) || true
 https://en.cppreference.com/w/cpp/io/c/remove
 */
 #include <iostream>

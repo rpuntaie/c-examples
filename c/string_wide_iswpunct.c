@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_wide_iswpunct.exe ./c/string_wide_iswpunct.c && (cd ../_build/c/;./string_wide_iswpunct.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_wide_iswpunct.exe ./c/string_wide_iswpunct.c && (cd ../_build/c/;./string_wide_iswpunct.exe)
 https://en.cppreference.com/w/c/string/wide/iswpunct
 */
 #include <stdio.h>

@@ -1,9 +1,9 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/types_is_layout_compatible.exe ./cpp/types_is_layout_compatible.cpp && (cd ../_build/cpp/;./types_is_layout_compatible.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/types_is_layout_compatible.exe ./cpp/types_is_layout_compatible.cpp && (cd ../_build/cpp/;./types_is_layout_compatible.exe)
 https://en.cppreference.com/w/cpp/types/is_layout_compatible
 */
-#include <type_traits>
 #include <iostream>
+#include <type_traits>
 struct Foo {
     int x;
     char y;

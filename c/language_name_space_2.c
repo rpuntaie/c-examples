@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_name_space_2.exe ./c/language_name_space_2.c && (cd ../_build/c/;./language_name_space_2.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_name_space_2.exe ./c/language_name_space_2.c && (cd ../_build/c/;./language_name_space_2.exe)
 https://en.cppreference.com/w/c/language/name_space
 */
 void foo (void) { return; } // ordinary name space, file scope

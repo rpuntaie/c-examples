@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/locale_lconv.exe ./c/locale_lconv.c && (cd ../_build/c/;./locale_lconv.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/locale_lconv.exe ./c/locale_lconv.c && (cd ../_build/c/;./locale_lconv.exe)
 https://en.cppreference.com/w/c/locale/lconv
 */
 #include <locale.h>

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/locale_LC_categories.exe ./c/locale_LC_categories.c && (cd ../_build/c/;./locale_LC_categories.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/locale_LC_categories.exe ./c/locale_LC_categories.c && (cd ../_build/c/;./locale_LC_categories.exe)
 https://en.cppreference.com/w/c/locale/LC_categories
 */
 #include <stdio.h>

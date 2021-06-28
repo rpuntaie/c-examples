@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_complex_csinh.exe ./c/numeric_complex_csinh.c && (cd ../_build/c/;./numeric_complex_csinh.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_complex_csinh.exe ./c/numeric_complex_csinh.c && (cd ../_build/c/;./numeric_complex_csinh.exe)
 https://en.cppreference.com/w/c/numeric/complex/csinh
 */
 #include <stdio.h>

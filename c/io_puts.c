@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/io_puts.exe ./c/io_puts.c && (cd ../_build/c/;./io_puts.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/io_puts.exe ./c/io_puts.c && (cd ../_build/c/;./io_puts.exe)
 https://en.cppreference.com/w/c/io/puts
 */
 #include <stdio.h>

@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/atomic_ATOMIC_FLAG_INIT.exe ./cpp/atomic_ATOMIC_FLAG_INIT.cpp && (cd ../_build/cpp/;./atomic_ATOMIC_FLAG_INIT.exe)
+g++ --std=c++20 -latomic -pthread -o ../_build/cpp/atomic_ATOMIC_FLAG_INIT.exe ./cpp/atomic_ATOMIC_FLAG_INIT.cpp && (cd ../_build/cpp/;./atomic_ATOMIC_FLAG_INIT.exe)
 https://en.cppreference.com/w/cpp/atomic/ATOMIC_FLAG_INIT
 */
 #include <atomic>

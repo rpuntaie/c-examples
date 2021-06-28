@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/error_assert.exe ./c/error_assert.c && (cd ../_build/c/;./error_assert.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/error_assert.exe ./c/error_assert.c && (cd ../_build/c/;./error_assert.exe) || true
 https://en.cppreference.com/w/c/error/assert
 */
 #include <stdio.h>

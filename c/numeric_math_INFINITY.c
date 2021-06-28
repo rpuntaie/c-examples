@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_INFINITY.exe ./c/numeric_math_INFINITY.c && (cd ../_build/c/;./numeric_math_INFINITY.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_INFINITY.exe ./c/numeric_math_INFINITY.c && (cd ../_build/c/;./numeric_math_INFINITY.exe)
 https://en.cppreference.com/w/c/numeric/math/INFINITY
 */
 #include <stdio.h>

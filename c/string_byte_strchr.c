@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_strchr.exe ./c/string_byte_strchr.c && (cd ../_build/c/;./string_byte_strchr.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_strchr.exe ./c/string_byte_strchr.c && (cd ../_build/c/;./string_byte_strchr.exe)
 https://en.cppreference.com/w/c/string/byte/strchr
 */
 #include <stdio.h>

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_operator_logical.exe ./c/language_operator_logical.c && (cd ../_build/c/;./language_operator_logical.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_operator_logical.exe ./c/language_operator_logical.c && (cd ../_build/c/;./language_operator_logical.exe)
 https://en.cppreference.com/w/c/language/operator_logical
 */
 #include <stdbool.h>

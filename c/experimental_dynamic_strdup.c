@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/experimental_dynamic_strdup.exe ./c/experimental_dynamic_strdup.c && (cd ../_build/c/;./experimental_dynamic_strdup.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/experimental_dynamic_strdup.exe ./c/experimental_dynamic_strdup.c && (cd ../_build/c/;./experimental_dynamic_strdup.exe)
 https://en.cppreference.com/w/c/experimental/dynamic/strdup
 */
 #ifdef __STDC_ALLOC_LIB__

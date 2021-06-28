@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_multibyte_c16rtomb.exe ./c/string_multibyte_c16rtomb.c && (cd ../_build/c/;./string_multibyte_c16rtomb.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_multibyte_c16rtomb.exe ./c/string_multibyte_c16rtomb.c && (cd ../_build/c/;./string_multibyte_c16rtomb.exe)
 https://en.cppreference.com/w/c/string/multibyte/c16rtomb
 */
 #include <stdio.h>

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_scalbn.exe ./c/numeric_math_scalbn.c && (cd ../_build/c/;./numeric_math_scalbn.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_scalbn.exe ./c/numeric_math_scalbn.c && (cd ../_build/c/;./numeric_math_scalbn.exe)
 https://en.cppreference.com/w/c/numeric/math/scalbn
 */
 #include <stdio.h>

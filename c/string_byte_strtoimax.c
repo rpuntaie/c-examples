@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_strtoimax.exe ./c/string_byte_strtoimax.c && (cd ../_build/c/;./string_byte_strtoimax.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_strtoimax.exe ./c/string_byte_strtoimax.c && (cd ../_build/c/;./string_byte_strtoimax.exe)
 https://en.cppreference.com/w/c/string/byte/strtoimax
 */
 #include <stdio.h>

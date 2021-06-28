@@ -30,7 +30,7 @@ struct C : A, B {
     }
     ~C() { std::cout << "C destroyed\n"; }
 };
-int main () try
+int main() try
 {
     // creates the A base subobject
     // creates the a1 member of B

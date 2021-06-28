@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/program_abort.exe ./c/program_abort.c && (cd ../_build/c/;./program_abort.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/program_abort.exe ./c/program_abort.c && (cd ../_build/c/;./program_abort.exe) || true
 https://en.cppreference.com/w/c/program/abort
 */
 #include <stdio.h>

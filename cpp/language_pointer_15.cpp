@@ -2,6 +2,7 @@
 g++ --std=c++20 -pthread -o ../_build/cpp/language_pointer_15.exe ./cpp/language_pointer_15.cpp && (cd ../_build/cpp/;./language_pointer_15.exe)
 https://en.cppreference.com/w/cpp/language/pointer
 */
+#include <iostream>
 struct A
 {
     int m;

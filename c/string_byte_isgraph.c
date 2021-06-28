@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_isgraph.exe ./c/string_byte_isgraph.c && (cd ../_build/c/;./string_byte_isgraph.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_isgraph.exe ./c/string_byte_isgraph.c && (cd ../_build/c/;./string_byte_isgraph.exe)
 https://en.cppreference.com/w/c/string/byte/isgraph
 */
 #include <stdio.h>

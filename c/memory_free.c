@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/memory_free.exe ./c/memory_free.c && (cd ../_build/c/;./memory_free.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/memory_free.exe ./c/memory_free.c && (cd ../_build/c/;./memory_free.exe)
 https://en.cppreference.com/w/c/memory/free
 */
 #include <stdlib.h>

@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_operator_incdec.exe ./c/language_operator_incdec.c && (cd ../_build/c/;./language_operator_incdec.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_operator_incdec.exe ./c/language_operator_incdec.c && (cd ../_build/c/;./language_operator_incdec.exe)
 https://en.cppreference.com/w/c/language/operator_incdec
 */
 #include <stdlib.h>

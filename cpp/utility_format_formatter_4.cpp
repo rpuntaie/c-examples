@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/utility_format_formatter_4.exe ./cpp/utility_format_formatter_4.cpp && (cd ../_build/cpp/;./utility_format_formatter_4.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/utility_format_formatter_4.exe ./cpp/utility_format_formatter_4.cpp && (cd ../_build/cpp/;./utility_format_formatter_4.exe)
 https://en.cppreference.com/w/cpp/utility/format/formatter
 */
 #include <format>

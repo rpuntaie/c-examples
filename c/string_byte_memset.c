@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_memset.exe ./c/string_byte_memset.c && (cd ../_build/c/;./string_byte_memset.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_memset.exe ./c/string_byte_memset.c && (cd ../_build/c/;./string_byte_memset.exe)
 https://en.cppreference.com/w/c/string/byte/memset
 */
 #define __STDC_WANT_LIB_EXT1__ 1

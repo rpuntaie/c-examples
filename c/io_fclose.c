@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/io_fclose.exe ./c/io_fclose.c && (cd ../_build/c/;./io_fclose.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/io_fclose.exe ./c/io_fclose.c && (cd ../_build/c/;./io_fclose.exe)
 https://en.cppreference.com/w/c/io/fclose
 */
 #include <stdio.h>

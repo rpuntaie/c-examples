@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_wide_wcsstr.exe ./c/string_wide_wcsstr.c && (cd ../_build/c/;./string_wide_wcsstr.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_wide_wcsstr.exe ./c/string_wide_wcsstr.c && (cd ../_build/c/;./string_wide_wcsstr.exe)
 https://en.cppreference.com/w/c/string/wide/wcsstr
 */
 #include <stdio.h>

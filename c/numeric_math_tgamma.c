@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_tgamma.exe ./c/numeric_math_tgamma.c && (cd ../_build/c/;./numeric_math_tgamma.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_tgamma.exe ./c/numeric_math_tgamma.c && (cd ../_build/c/;./numeric_math_tgamma.exe)
 https://en.cppreference.com/w/c/numeric/math/tgamma
 */
 #include <stdio.h>

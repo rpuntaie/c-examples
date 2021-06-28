@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/types_is_pointer_interconvertible_base_of.exe ./cpp/types_is_pointer_interconvertible_base_of.cpp && (cd ../_build/cpp/;./types_is_pointer_interconvertible_base_of.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/types_is_pointer_interconvertible_base_of.exe ./cpp/types_is_pointer_interconvertible_base_of.cpp && (cd ../_build/cpp/;./types_is_pointer_interconvertible_base_of.exe)
 https://en.cppreference.com/w/cpp/types/is_pointer_interconvertible_base_of
 */
 #include <iostream>

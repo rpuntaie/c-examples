@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_atof.exe ./c/string_byte_atof.c && (cd ../_build/c/;./string_byte_atof.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_atof.exe ./c/string_byte_atof.c && (cd ../_build/c/;./string_byte_atof.exe)
 https://en.cppreference.com/w/c/string/byte/atof
 */
 #include <stdlib.h>

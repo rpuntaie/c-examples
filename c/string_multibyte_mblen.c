@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_multibyte_mblen.exe ./c/string_multibyte_mblen.c && (cd ../_build/c/;./string_multibyte_mblen.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_multibyte_mblen.exe ./c/string_multibyte_mblen.c && (cd ../_build/c/;./string_multibyte_mblen.exe)
 https://en.cppreference.com/w/c/string/multibyte/mblen
 */
 #include <string.h>

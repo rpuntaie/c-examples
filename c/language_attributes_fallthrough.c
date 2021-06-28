@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/language_attributes_fallthrough.exe ./c/language_attributes_fallthrough.c && (cd ../_build/c/;./language_attributes_fallthrough.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/language_attributes_fallthrough.exe ./c/language_attributes_fallthrough.c && (cd ../_build/c/;./language_attributes_fallthrough.exe)
 https://en.cppreference.com/w/c/language/attributes/fallthrough
 */
 #include <stdbool.h>

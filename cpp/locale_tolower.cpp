@@ -1,5 +1,6 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/locale_tolower.exe ./cpp/locale_tolower.cpp && (cd ../_build/cpp/;./locale_tolower.exe)
+NOT in C++20
+g++ --std=c++17 -pthread -o ../_build/cpp/locale_tolower.exe ./cpp/locale_tolower.cpp && (cd ../_build/cpp/;./locale_tolower.exe)
 https://en.cppreference.com/w/cpp/locale/tolower
 */
 #include <iostream>

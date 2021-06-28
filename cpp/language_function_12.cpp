@@ -22,14 +22,6 @@ void (*fp03())(const std::string&)
 {
     return f0;
 }
-int main()
-{
-    f0();
-    fp11()("test");
-    fp03()("again");
-    int f2(std::string); // declaration in function scope
-    std::cout << f2("bad12") << '\n';
-}
 // simple non-member function returning int
 int f1()
 {
@@ -45,4 +37,11 @@ catch(const std::exception& e)
     std::cerr << "stoi() failed!\n";
     return 0;
 }
-
+int main()
+{
+    f0();
+    fp11()("test");
+    fp03()("again");
+    int f2(std::string); // declaration in function scope
+    std::cout << f2("bad12") << '\n';
+}

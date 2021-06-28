@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_acosh.exe ./c/numeric_math_acosh.c && (cd ../_build/c/;./numeric_math_acosh.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_acosh.exe ./c/numeric_math_acosh.c && (cd ../_build/c/;./numeric_math_acosh.exe)
 https://en.cppreference.com/w/c/numeric/math/acosh
 */
 #include <stdio.h>

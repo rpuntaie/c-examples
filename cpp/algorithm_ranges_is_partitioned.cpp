@@ -6,6 +6,7 @@ https://en.cppreference.com/w/cpp/algorithm/ranges/is_partitioned
 #include <array>
 #include <iostream>
 #include <utility>
+#include <numeric>
 int main()
 {
     std::array<int, 9> v;

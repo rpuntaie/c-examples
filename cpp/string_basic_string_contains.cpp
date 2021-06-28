@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/string_basic_string_contains.exe ./cpp/string_basic_string_contains.cpp && (cd ../_build/cpp/;./string_basic_string_contains.exe)
+g++ --std=c++23 -pthread -o ../_build/cpp/string_basic_string_contains.exe ./cpp/string_basic_string_contains.cpp && (cd ../_build/cpp/;./string_basic_string_contains.exe)
 https://en.cppreference.com/w/cpp/string/basic_string/contains
 */
 #include <iostream>

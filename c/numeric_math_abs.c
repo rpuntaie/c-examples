@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_abs.exe ./c/numeric_math_abs.c && (cd ../_build/c/;./numeric_math_abs.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_abs.exe ./c/numeric_math_abs.c && (cd ../_build/c/;./numeric_math_abs.exe)
 https://en.cppreference.com/w/c/numeric/math/abs
 */
 #include <stdio.h>

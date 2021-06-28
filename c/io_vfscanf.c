@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/io_vfscanf.exe ./c/io_vfscanf.c && (cd ../_build/c/;./io_vfscanf.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/io_vfscanf.exe ./c/io_vfscanf.c && (cd ../_build/c/;./io_vfscanf.exe)
 https://en.cppreference.com/w/c/io/vfscanf
 */
 #include <stdio.h>

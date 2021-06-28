@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_asin.exe ./c/numeric_math_asin.c && (cd ../_build/c/;./numeric_math_asin.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_asin.exe ./c/numeric_math_asin.c && (cd ../_build/c/;./numeric_math_asin.exe)
 https://en.cppreference.com/w/c/numeric/math/asin
 */
 #include <math.h>

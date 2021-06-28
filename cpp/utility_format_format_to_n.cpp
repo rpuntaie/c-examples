@@ -1,5 +1,5 @@
 /*
-g++ --std=c++20 -pthread -o ../_build/cpp/utility_format_format_to_n.exe ./cpp/utility_format_format_to_n.cpp && (cd ../_build/cpp/;./utility_format_format_to_n.exe)
+# g++ --std=c++20 -pthread -o ../_build/cpp/utility_format_format_to_n.exe ./cpp/utility_format_format_to_n.cpp && (cd ../_build/cpp/;./utility_format_format_to_n.exe)
 https://en.cppreference.com/w/cpp/utility/format/format_to_n
 */
 #include <format>

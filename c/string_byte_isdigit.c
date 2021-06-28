@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/string_byte_isdigit.exe ./c/string_byte_isdigit.c && (cd ../_build/c/;./string_byte_isdigit.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/string_byte_isdigit.exe ./c/string_byte_isdigit.c && (cd ../_build/c/;./string_byte_isdigit.exe)
 https://en.cppreference.com/w/c/string/byte/isdigit
 */
 #include <stdio.h>

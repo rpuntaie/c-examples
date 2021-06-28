@@ -1,5 +1,5 @@
 /*
-gcc -std=c99 -pthread -o ../_build/c/numeric_math_NAN.exe ./c/numeric_math_NAN.c && (cd ../_build/c/;./numeric_math_NAN.exe)
+gcc -std=c17 -lc -lm -pthread -o ../_build/c/numeric_math_NAN.exe ./c/numeric_math_NAN.c && (cd ../_build/c/;./numeric_math_NAN.exe)
 https://en.cppreference.com/w/c/numeric/math/NAN
 */
 #include <stdio.h>
